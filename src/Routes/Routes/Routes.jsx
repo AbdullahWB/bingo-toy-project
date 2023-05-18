@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../../LayOuts/Main";
 import Home from "../../Home/Home/Home";
+import SingUp from "../../Sing/SingUp/SingUp";
 
 const router = createBrowserRouter([
     {
@@ -10,6 +11,13 @@ const router = createBrowserRouter([
             {
                 path: '/',
                 element: <Home></Home>
+            },
+            {
+                path: '/singUp',
+                element: <SingUp></SingUp>
+            },
+            {
+                
             }
         ]
     }
