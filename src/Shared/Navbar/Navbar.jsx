@@ -4,7 +4,16 @@ import { FaMicroscope } from "react-icons/fa";
 import { AuthContext } from '../../Provider/AuthProvider';
 
 const Navbar = () => {
-    const {user} = useContext(AuthContext);
+    const { user, singOut } = useContext(AuthContext);
+
+    const handleSingOut = () => {
+        singOut()
+            .then()
+            .catch(error => {
+                console.log(error);
+            })
+    }
+
     const navLink = <>
         <li className='hover:text-white font-semibold hover:bg-primary rounded-lg '><Link>Home</Link></li>
         <li className='hover:text-white font-semibold hover:bg-primary rounded-lg '><Link>AllToy</Link></li>
@@ -32,7 +41,16 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <Link to="/login" className="btn btn-primary text-white">Login</Link>
+                    <div className="w-10 rounded-full mr-5">
+                        <Link to='/profile'>
+                            {
+                                user && <img className='w-full h-full border border-primary rounded-full' title={user.displayName} src={user?.photoURL ? user.photoURL : "https://w7.pngwing.com/pngs/753/432/png-transparent-user-profile-2018-in-sight-user-conference-expo-business-default-business-angle-service-people-thumbnail.png"} />
+                            }
+                        </Link>
+                    </div>
+                    {
+                        user ? <Link to="/" onClick={handleSingOut} className="btn btn-primary text-white">LogOut</Link> : <Link to="/login" className="btn btn-primary text-white">Login</Link>
+                    }
                 </div>
             </div>
         </>
