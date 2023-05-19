@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { FaMicroscope } from "react-icons/fa";
+import { AuthContext } from '../../Provider/AuthProvider';
 
 const Navbar = () => {
+    const {user} = useContext(AuthContext);
     const navLink = <>
         <li className='hover:text-white font-semibold hover:bg-primary rounded-lg '><Link>Home</Link></li>
         <li className='hover:text-white font-semibold hover:bg-primary rounded-lg '><Link>AllToy</Link></li>
-        <li className='hover:text-white font-semibold hover:bg-primary rounded-lg '><Link>MyToy</Link></li>
+        <li className='hover:text-white font-semibold hover:bg-primary rounded-lg '><Link to='/myToys'>MyToy</Link></li>
         <li className='hover:text-white font-semibold hover:bg-primary rounded-lg '><Link to='/addToy'>AddToy</Link></li>
         <li className='hover:text-white font-semibold hover:bg-primary rounded-lg '><Link>Blogs</Link></li>
     </>
@@ -30,7 +32,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <Link className="btn btn-primary text-white">Login</Link>
+                    <Link to="/login" className="btn btn-primary text-white">Login</Link>
                 </div>
             </div>
         </>

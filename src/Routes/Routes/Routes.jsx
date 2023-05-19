@@ -4,6 +4,7 @@ import Home from "../../Home/Home/Home";
 import SingUp from "../../Sing/SingUp/SingUp";
 import Login from "../../Sing/LogIn/Login";
 import AddToy from "../../Pages/AddToy.jsx/AddToy";
+import MyToys from "../../Pages/MyToys/MyToys";
 
 const router = createBrowserRouter([
     {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
             {
                 path: '/addToy',
                 element: <AddToy></AddToy>
+            },
+            {
+                path: '/myToys',
+                element: <MyToys></MyToys>
             }
         ]
     }
