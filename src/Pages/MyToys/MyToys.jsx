@@ -65,7 +65,7 @@ const MyToys = () => {
                     </tbody>
                 </table>
             </div>
-            <Modal></Modal>
+            {/* <Modal></Modal> */}
         </div>
     );
 };
