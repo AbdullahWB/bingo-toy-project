@@ -3,12 +3,19 @@ import { AuthContext } from '../../Provider/AuthProvider';
 import { useForm } from "react-hook-form";
 
 const Modal = ({ myToy }) => {
-    const { picture, product_details, seller_email, seller_name, available_quantity, sub_category, category, rating, price, name } = myToy
+    // console.log(myToy);
+    const { _id, picture, product_details, seller_email, seller_name, available_quantity, sub_category, category, rating, price, name } = myToy || {};
+    
+
     const { user } = useContext(AuthContext)
+
+
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     const onSubmit = data => {
         console.log(data)
     };
+
+
     return (
         <>
             <input type="checkbox" id="my-modal-5" className="modal-toggle" />
@@ -22,6 +29,11 @@ const Modal = ({ myToy }) => {
                                 {...register("name", { required: true })}
                                 placeholder="Product Name"
                                 defaultValue={name}
+                            />
+                            <input
+                                className="input hidden"
+                                {...register("_id")}
+                                value={_id}
                             />
 
                             <input
