@@ -35,7 +35,7 @@ const Tabs = () => {
                     <h1 className='text-4xl font-bold text-white'>Math</h1>
                 </div>
             </div>
-            <div className='grid grid-cols-4 gap-7'>
+            <div className='grid grid-cols-4 gap-7 my-[100px]'>
                 {
                     tabs.map(tab => <TabCart
                         key={tab._id}
