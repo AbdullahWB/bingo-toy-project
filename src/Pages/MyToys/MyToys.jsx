@@ -7,6 +7,7 @@ const MyToys = () => {
     const { user } = useContext(AuthContext)
     // console.log(user.email);
     const [myToys, setMyToys] = useState([])
+    const [control, setControl] = useState(false)
     const [search, setSearch] = useState("")
     useEffect(() => {
         fetch(`http://localhost:3000/myToy/${user?.email}`)
@@ -15,13 +16,29 @@ const MyToys = () => {
                 console.log(data);
                 setMyToys(data);
             })
-    }, [user])
+    }, [user, control])
 
     const handleSearch = () => {
         fetch(`http://localhost:3000/itemSearch/${search}`)
             .then(res => res.json())
             .then(data => {
                 setMyToys(data);
+            })
+    }
+
+    const handleUpdateToyData = (data) => { 
+        fetch(`http://localhost:3000/updateToy/${data._id}`, {
+            method: 'PUT',
+            headers: {
+                "content-type": "application/json"
+            },
+            body: JSON.stringify(data)
+        })
+            .then(res => res.json())
+            .then(result => {
+                if (result.modifiedCount > 0) { 
+                    setControl(!control)
+                }
             })
     }
 
@@ -60,6 +77,7 @@ const MyToys = () => {
                                 key={myToy._id}
                                 myToy={myToy}
                                 index={index}
+                                handleUpdateToyData={handleUpdateToyData}
                             ></ToyCard>)
                         }
                     </tbody>

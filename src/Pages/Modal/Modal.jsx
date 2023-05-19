@@ -1,17 +1,21 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { AuthContext } from '../../Provider/AuthProvider';
 import { useForm } from "react-hook-form";
 
-const Modal = ({ myToy }) => {
+const Modal = ({ myToy, handleUpdateToyData }) => {
+
+
+
     // console.log(myToy);
     const { _id, picture, product_details, seller_email, seller_name, available_quantity, sub_category, category, rating, price, name } = myToy || {};
-    
+
 
     const { user } = useContext(AuthContext)
 
 
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     const onSubmit = data => {
+        handleUpdateToyData(data)
         console.log(data)
     };
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { FaEdit, FaTrash, FaFileAlt } from "react-icons/fa";
 import Modal from '../Modal/Modal';
 
-const ToyCard = ({ myToy, index }) => {
+const ToyCard = ({ myToy, index, handleUpdateToyData }) => {
     const { _id, name, price, category, picture, seller_email, seller_name, sub_category } = myToy || {};
     return (
         <>
@@ -34,7 +34,7 @@ const ToyCard = ({ myToy, index }) => {
                     <label htmlFor="my-modal-5" className="">
                         <span  className='w-[40px] rounded-full h-[40px] flex justify-center items-center bg-[rgba(26,255,10,0.1)]'><FaEdit className='text-green-500 text-2xl'></FaEdit></span>
                     </label>
-                    <Modal myToy={myToy}></Modal>
+                    <Modal myToy={myToy} handleUpdateToyData={handleUpdateToyData}></Modal>
                     <span className='w-[40px] rounded-full h-[40px] flex justify-center items-center bg-[rgba(255,10,10,0.1)]'><FaTrash className='text-red-500 text-2xl'></FaTrash></span>
                 </th>
             </tr>
