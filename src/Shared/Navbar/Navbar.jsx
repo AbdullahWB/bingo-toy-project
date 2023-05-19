@@ -7,7 +7,7 @@ const Navbar = () => {
         <li className='hover:text-white font-semibold hover:bg-primary rounded-lg '><Link>Home</Link></li>
         <li className='hover:text-white font-semibold hover:bg-primary rounded-lg '><Link>AllToy</Link></li>
         <li className='hover:text-white font-semibold hover:bg-primary rounded-lg '><Link>MyToy</Link></li>
-        <li className='hover:text-white font-semibold hover:bg-primary rounded-lg '><Link>AddToy</Link></li>
+        <li className='hover:text-white font-semibold hover:bg-primary rounded-lg '><Link to='/addToy'>AddToy</Link></li>
         <li className='hover:text-white font-semibold hover:bg-primary rounded-lg '><Link>Blogs</Link></li>
     </>
     return (

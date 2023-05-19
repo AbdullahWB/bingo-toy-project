@@ -1,646 +1,554 @@
 [
-    {
-        "name": "Math Kit",
-        "price": 24.99,
-        "rating": 4.5,
-        "category": "Educational",
-        "sub_category": "Math",
-        "available_quantity": 10,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Math Kit is designed to help children learn mathematical concepts through hands-on activities and games.",
-        "picture": "https://cdn.shopify.com/s/files/1/0729/3773/4417/articles/math-toys.jpg?v=1682516680&width=1500"
-      },
-      {
-        "name": "Language Kit",
-        "price": 19.99,
-        "rating": 4.2,
-        "category": "Educational",
-        "sub_category": "Language",
-        "available_quantity": 5,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Language Kit includes interactive games and exercises to enhance children's language skills and vocabulary.",
-        "picture": "https://ae01.alicdn.com/kf/sf818b0efb5bf48b28e7c96c614e81e8cj/kids-english-educational-voice-reading-machine-book-smart-point-reading-pen-children-study-papers-learning-toys.jpg_q90.jpg_.webp"
-      },
-      {
-        "name": "Engineering Kit",
-        "price": 39.99,
-        "rating": 4.8,
-        "category": "Educational",
-        "sub_category": "Engineering",
-        "available_quantity": 3,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Engineering Kit introduces kids to the world of engineering through building and designing various structures and mechanisms.",
-        "picture": "https://cdn.mos.cms.futurecdn.net/poybd6yydrzpr7xkm28phe.jpg"
-      },
-      {
-        "name": "Science Kit",
-        "price": 29.99,
-        "rating": 4.7,
-        "category": "Educational",
-        "sub_category": "Science",
-        "available_quantity": 8,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Science Kit offers exciting experiments and activities that allow children to explore and understand different scientific concepts.",
-        "picture": "https://m.media-amazon.com/images/i/81zhm7rsbcl._ac_sl1500_.jpg"
-      },
-      {
-        "name": "Math Kit",
-        "price": 24.99,
-        "rating": 4.5,
-        "category": "Educational",
-        "sub_category": "Math",
-        "available_quantity": 10,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Math Kit is designed to help children learn mathematical concepts through hands-on activities and games.",
-        "picture": "https://cdn.shopify.com/s/files/1/0729/3773/4417/articles/math-toys.jpg?v=1682516680&width=1500"
-      },
-      {
-        "name": "Language Kit",
-        "price": 19.99,
-        "rating": 4.2,
-        "category": "Educational",
-        "sub_category": "Language",
-        "available_quantity": 5,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Language Kit includes interactive games and exercises to enhance children's language skills and vocabulary.",
-        "picture": "https://ae01.alicdn.com/kf/sf818b0efb5bf48b28e7c96c614e81e8cj/kids-english-educational-voice-reading-machine-book-smart-point-reading-pen-children-study-papers-learning-toys.jpg_q90.jpg_.webp"
-      },
-      {
-        "name": "Engineering Kit",
-        "price": 39.99,
-        "rating": 4.8,
-        "category": "Educational",
-        "sub_category": "Engineering",
-        "available_quantity": 3,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Engineering Kit introduces kids to the world of engineering through building and designing various structures and mechanisms.",
-        "picture": "https://cdn.mos.cms.futurecdn.net/poybd6yydrzpr7xkm28phe.jpg"
-      },
-      {
-        "name": "Science Kit",
-        "price": 29.99,
-        "rating": 4.7,
-        "category": "Educational",
-        "sub_category": "Science",
-        "available_quantity": 8,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Science Kit offers exciting experiments and activities that allow children to explore and understand different scientific concepts.",
-        "picture": "https://m.media-amazon.com/images/i/81zhm7rsbcl._ac_sl1500_.jpg"
-      },
-      {
-        "name": "Advanced Math Kit",
-        "price": 34.99,
-        "rating": 4.6,
-        "category": "Educational",
-        "sub_category": "Math",
-        "available_quantity": 6,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Advanced Math Kit is designed for older children to dive deeper into complex mathematical concepts and problem-solving skills.",
-        "picture": "https://example.com/advanced_math_kit.jpg"
-      },
-      {
-        "name": "Spelling and Grammar Kit",
-        "price": 17.99,
-        "rating": 4.1,
-        "category": "Educational",
-        "sub_category": "Language",
-        "available_quantity": 4,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Spelling and Grammar Kit helps children improve their spelling and grammar skills through fun and engaging exercises.",
-        "picture": "https://example.com/spelling_grammar_kit.jpg"
-    },
-    {
-        "name": "Math Kit",
-        "price": 24.99,
-        "rating": 4.5,
-        "category": "Educational",
-        "sub_category": "Math",
-        "available_quantity": 10,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Math Kit is designed to help children learn mathematical concepts through hands-on activities and games.",
-        "picture": "https://cdn.shopify.com/s/files/1/0729/3773/4417/articles/math-toys.jpg?v=1682516680&width=1500"
-      },
-      {
-        "name": "Language Kit",
-        "price": 19.99,
-        "rating": 4.2,
-        "category": "Educational",
-        "sub_category": "Language",
-        "available_quantity": 5,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Language Kit includes interactive games and exercises to enhance children's language skills and vocabulary.",
-        "picture": "https://ae01.alicdn.com/kf/sf818b0efb5bf48b28e7c96c614e81e8cj/kids-english-educational-voice-reading-machine-book-smart-point-reading-pen-children-study-papers-learning-toys.jpg_q90.jpg_.webp"
-      },
-      {
-        "name": "Engineering Kit",
-        "price": 39.99,
-        "rating": 4.8,
-        "category": "Educational",
-        "sub_category": "Engineering",
-        "available_quantity": 3,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Engineering Kit introduces kids to the world of engineering through building and designing various structures and mechanisms.",
-        "picture": "https://cdn.mos.cms.futurecdn.net/poybd6yydrzpr7xkm28phe.jpg"
-      },
-      {
-        "name": "Science Kit",
-        "price": 29.99,
-        "rating": 4.7,
-        "category": "Educational",
-        "sub_category": "Science",
-        "available_quantity": 8,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Science Kit offers exciting experiments and activities that allow children to explore and understand different scientific concepts.",
-        "picture": "https://m.media-amazon.com/images/i/81zhm7rsbcl._ac_sl1500_.jpg"
-      },
-      {
-        "name": "Advanced Math Kit",
-        "price": 34.99,
-        "rating": 4.6,
-        "category": "Educational",
-        "sub_category": "Math",
-        "available_quantity": 6,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Advanced Math Kit is designed for older children to dive deeper into complex mathematical concepts and problem-solving skills.",
-        "picture": "https://example.com/advanced_math_kit.jpg"
-      },
-      {
-        "name": "Spelling and Grammar Kit",
-        "price": 17.99,
-        "rating": 4.1,
-        "category": "Educational",
-        "sub_category": "Language",
-        "available_quantity": 4,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Spelling and Grammar Kit helps children improve their spelling and grammar skills through fun and engaging exercises.",
-        "picture": "https://example.com/spelling_grammar_kit.jpg"
-      },
-      {
-        "name": "Math Kit",
-        "price": 24.99,
-        "rating": 4.5,
-        "category": "Educational",
-        "sub_category": "Math",
-        "available_quantity": 10,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Math Kit is designed to help children learn mathematical concepts through hands-on activities and games.",
-        "picture": "https://cdn.shopify.com/s/files/1/0729/3773/4417/articles/math-toys.jpg?v=1682516680&width=1500"
-      },
-      {
-        "name": "Language Kit",
-        "price": 19.99,
-        "rating": 4.2,
-        "category": "Educational",
-        "sub_category": "Language",
-        "available_quantity": 5,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Language Kit includes interactive games and exercises to enhance children's language skills and vocabulary.",
-        "picture": "https://ae01.alicdn.com/kf/sf818b0efb5bf48b28e7c96c614e81e8cj/kids-english-educational-voice-reading-machine-book-smart-point-reading-pen-children-study-papers-learning-toys.jpg_q90.jpg_.webp"
-      },
-      {
-        "name": "Engineering Kit",
-        "price": 39.99,
-        "rating": 4.8,
-        "category": "Educational",
-        "sub_category": "Engineering",
-        "available_quantity": 3,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Engineering Kit introduces kids to the world of engineering through building and designing various structures and mechanisms.",
-        "picture": "https://cdn.mos.cms.futurecdn.net/poybd6yydrzpr7xkm28phe.jpg"
-      },
-      {
-        "name": "Science Kit",
-        "price": 29.99,
-        "rating": 4.7,
-        "category": "Educational",
-        "sub_category": "Science",
-        "available_quantity": 8,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Science Kit offers exciting experiments and activities that allow children to explore and understand different scientific concepts.",
-        "picture": "https://m.media-amazon.com/images/i/81zhm7rsbcl._ac_sl1500_.jpg"
-      },
-      {
-        "name": "Advanced Math Kit",
-        "price": 34.99,
-        "rating": 4.6,
-        "category": "Educational",
-        "sub_category": "Math",
-        "available_quantity": 6,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Advanced Math Kit is designed for older children to dive deeper into complex mathematical concepts and problem-solving skills.",
-        "picture": "https://example.com/advanced_math_kit.jpg"
-      },
-      {
-        "name": "Spelling and Grammar Kit",
-        "price": 17.99,
-        "rating": 4.1,
-        "category": "Educational",
-        "sub_category": "Language",
-        "available_quantity": 4,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Spelling and Grammar Kit helps children improve their spelling and grammar skills through fun and engaging exercises.",
-        "picture": "https://example.com/spelling_grammar_kit.jpg"
-      },
-      {
-        "name": "Math Kit",
-        "price": 24.99,
-        "rating": 4.5,
-        "category": "Educational",
-        "sub_category": "Math",
-        "available_quantity": 10,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Math Kit is designed to help children learn mathematical concepts through hands-on activities and games.",
-        "picture": "https://cdn.shopify.com/s/files/1/0729/3773/4417/articles/math-toys.jpg?v=1682516680&width=1500"
-      },
-      {
-        "name": "Language Kit",
-        "price": 19.99,
-        "rating": 4.2,
-        "category": "Educational",
-        "sub_category": "Language",
-        "available_quantity": 5,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Language Kit includes interactive games and exercises to enhance children's language skills and vocabulary.",
-        "picture": "https://ae01.alicdn.com/kf/sf818b0efb5bf48b28e7c96c614e81e8cj/kids-english-educational-voice-reading-machine-book-smart-point-reading-pen-children-study-papers-learning-toys.jpg_q90.jpg_.webp"
-      },
-      {
-        "name": "Engineering Kit",
-        "price": 39.99,
-        "rating": 4.8,
-        "category": "Educational",
-        "sub_category": "Engineering",
-        "available_quantity": 3,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Engineering Kit introduces kids to the world of engineering through building and designing various structures and mechanisms.",
-        "picture": "https://cdn.mos.cms.futurecdn.net/poybd6yydrzpr7xkm28phe.jpg"
-      },
-      {
-        "name": "Science Kit",
-        "price": 29.99,
-        "rating": 4.7,
-        "category": "Educational",
-        "sub_category": "Science",
-        "available_quantity": 8,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Science Kit offers exciting experiments and activities that allow children to explore and understand different scientific concepts.",
-        "picture": "https://m.media-amazon.com/images/i/81zhm7rsbcl._ac_sl1500_.jpg"
-      },
-      {
-        "name": "Advanced Math Kit",
-        "price": 34.99,
-        "rating": 4.6,
-        "category": "Educational",
-        "sub_category": "Math",
-        "available_quantity": 6,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Advanced Math Kit is designed for older children to dive deeper into complex mathematical concepts and problem-solving skills.",
-        "picture": "https://example.com/advanced_math_kit.jpg"
-      },
-      {
-        "name": "Spelling and Grammar Kit",
-        "price": 17.99,
-        "rating": 4.1,
-        "category": "Educational",
-        "sub_category": "Language",
-        "available_quantity": 4,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Spelling and Grammar Kit helps children improve their spelling and grammar skills through fun and engaging exercises.",
-        "picture": "https://example.com/spelling_grammar_kit.jpg"
-      },
-      {
-        "name": "Math Kit",
-        "price": 24.99,
-        "rating": 4.5,
-        "category": "Educational",
-        "sub_category": "Math",
-        "available_quantity": 10,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Math Kit is designed to help children learn mathematical concepts through hands-on activities and games.",
-        "picture": "https://cdn.shopify.com/s/files/1/0729/3773/4417/articles/math-toys.jpg?v=1682516680&width=1500"
-      },
-      {
-        "name": "Language Kit",
-        "price": 19.99,
-        "rating": 4.2,
-        "category": "Educational",
-        "sub_category": "Language",
-        "available_quantity": 5,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Language Kit includes interactive games and exercises to enhance children's language skills and vocabulary.",
-        "picture": "https://ae01.alicdn.com/kf/sf818b0efb5bf48b28e7c96c614e81e8cj/kids-english-educational-voice-reading-machine-book-smart-point-reading-pen-children-study-papers-learning-toys.jpg_q90.jpg_.webp"
-      },
-      {
-        "name": "Engineering Kit",
-        "price": 39.99,
-        "rating": 4.8,
-        "category": "Educational",
-        "sub_category": "Engineering",
-        "available_quantity": 3,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Engineering Kit introduces kids to the world of engineering through building and designing various structures and mechanisms.",
-        "picture": "https://cdn.mos.cms.futurecdn.net/poybd6yydrzpr7xkm28phe.jpg"
-      },
-      {
-        "name": "Science Kit",
-        "price": 29.99,
-        "rating": 4.7,
-        "category": "Educational",
-        "sub_category": "Science",
-        "available_quantity": 8,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Science Kit offers exciting experiments and activities that allow children to explore and understand different scientific concepts.",
-        "picture": "https://m.media-amazon.com/images/i/81zhm7rsbcl._ac_sl1500_.jpg"
-      },
-      {
-        "name": "Advanced Math Kit",
-        "price": 34.99,
-        "rating": 4.6,
-        "category": "Educational",
-        "sub_category": "Math",
-        "available_quantity": 6,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Advanced Math Kit is designed for older children to dive deeper into complex mathematical concepts and problem-solving skills.",
-        "picture": "https://example.com/advanced_math_kit.jpg"
-      },
-      {
-        "name": "Spelling and Grammar Kit",
-        "price": 17.99,
-        "rating": 4.1,
-        "category": "Educational",
-        "sub_category": "Language",
-        "available_quantity": 4,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Spelling and Grammar Kit helps children improve their spelling and grammar skills through fun and engaging exercises.",
-        "picture": "https://example.com/spelling_grammar_kit.jpg"
-      },
-      {
-        "name": "Math Kit",
-        "price": 24.99,
-        "rating": 4.5,
-        "category": "Educational",
-        "sub_category": "Math",
-        "available_quantity": 10,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Math Kit is designed to help children learn mathematical concepts through hands-on activities and games.",
-        "picture": "https://cdn.shopify.com/s/files/1/0729/3773/4417/articles/math-toys.jpg?v=1682516680&width=1500"
-      },
-      {
-        "name": "Language Kit",
-        "price": 19.99,
-        "rating": 4.2,
-        "category": "Educational",
-        "sub_category": "Language",
-        "available_quantity": 5,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Language Kit includes interactive games and exercises to enhance children's language skills and vocabulary.",
-        "picture": "https://ae01.alicdn.com/kf/sf818b0efb5bf48b28e7c96c614e81e8cj/kids-english-educational-voice-reading-machine-book-smart-point-reading-pen-children-study-papers-learning-toys.jpg_q90.jpg_.webp"
-      },
-      {
-        "name": "Engineering Kit",
-        "price": 39.99,
-        "rating": 4.8,
-        "category": "Educational",
-        "sub_category": "Engineering",
-        "available_quantity": 3,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Engineering Kit introduces kids to the world of engineering through building and designing various structures and mechanisms.",
-        "picture": "https://cdn.mos.cms.futurecdn.net/poybd6yydrzpr7xkm28phe.jpg"
-      },
-      {
-        "name": "Science Kit",
-        "price": 29.99,
-        "rating": 4.7,
-        "category": "Educational",
-        "sub_category": "Science",
-        "available_quantity": 8,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Science Kit offers exciting experiments and activities that allow children to explore and understand different scientific concepts.",
-        "picture": "https://m.media-amazon.com/images/i/81zhm7rsbcl._ac_sl1500_.jpg"
-      },
-      {
-        "name": "Advanced Math Kit",
-        "price": 34.99,
-        "rating": 4.6,
-        "category": "Educational",
-        "sub_category": "Math",
-        "available_quantity": 6,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Advanced Math Kit is designed for older children to dive deeper into complex mathematical concepts and problem-solving skills.",
-        "picture": "https://example.com/advanced_math_kit.jpg"
-      },
-      {
-        "name": "Spelling and Grammar Kit",
-        "price": 17.99,
-        "rating": 4.1,
-        "category": "Educational",
-        "sub_category": "Language",
-        "available_quantity": 4,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Spelling and Grammar Kit helps children improve their spelling and grammar skills through fun and engaging exercises.",
-        "picture": "https://example.com/spelling_grammar_kit.jpg"
-      },
-      {
-        "name": "Math Kit",
-        "price": 24.99,
-        "rating": 4.5,
-        "category": "Educational",
-        "sub_category": "Math",
-        "available_quantity": 10,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Math Kit is designed to help children learn mathematical concepts through hands-on activities and games.",
-        "picture": "https://cdn.shopify.com/s/files/1/0729/3773/4417/articles/math-toys.jpg?v=1682516680&width=1500"
-      },
-      {
-        "name": "Language Kit",
-        "price": 19.99,
-        "rating": 4.2,
-        "category": "Educational",
-        "sub_category": "Language",
-        "available_quantity": 5,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Language Kit includes interactive games and exercises to enhance children's language skills and vocabulary.",
-        "picture": "https://ae01.alicdn.com/kf/sf818b0efb5bf48b28e7c96c614e81e8cj/kids-english-educational-voice-reading-machine-book-smart-point-reading-pen-children-study-papers-learning-toys.jpg_q90.jpg_.webp"
-      },
-      {
-        "name": "Engineering Kit",
-        "price": 39.99,
-        "rating": 4.8,
-        "category": "Educational",
-        "sub_category": "Engineering",
-        "available_quantity": 3,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Engineering Kit introduces kids to the world of engineering through building and designing various structures and mechanisms.",
-        "picture": "https://cdn.mos.cms.futurecdn.net/poybd6yydrzpr7xkm28phe.jpg"
-      },
-      {
-        "name": "Science Kit",
-        "price": 29.99,
-        "rating": 4.7,
-        "category": "Educational",
-        "sub_category": "Science",
-        "available_quantity": 8,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Science Kit offers exciting experiments and activities that allow children to explore and understand different scientific concepts.",
-        "picture": "https://m.media-amazon.com/images/i/81zhm7rsbcl._ac_sl1500_.jpg"
-      },
-      {
-        "name": "Advanced Math Kit",
-        "price": 34.99,
-        "rating": 4.6,
-        "category": "Educational",
-        "sub_category": "Math",
-        "available_quantity": 6,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Advanced Math Kit is designed for older children to dive deeper into complex mathematical concepts and problem-solving skills.",
-        "picture": "https://example.com/advanced_math_kit.jpg"
-      },
-      {
-        "name": "Spelling and Grammar Kit",
-        "price": 17.99,
-        "rating": 4.1,
-        "category": "Educational",
-        "sub_category": "Language",
-        "available_quantity": 4,
-        "seller": {
-          "name": "Mohammad Abdullah",
-          "email": "abdullah917828@gmail.com"
-        },
-        "product_details": "The Spelling and Grammar Kit helps children improve their spelling and grammar skills through fun and engaging exercises.",
-        "picture": "https://example.com/spelling_grammar_kit.jpg"
-      }
+  {
+    "name": "Math Kit",
+    "price": 24.99,
+    "rating": 4.5,
+    "category": "Educational",
+    "sub_category": "Math",
+    "available_quantity": 10,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Math Kit is designed to help children learn mathematical concepts through hands-on activities and games.",
+    "picture": "https://cdn.shopify.com/s/files/1/0729/3773/4417/articles/math-toys.jpg?v=1682516680&width=1500"
+  },
+  {
+    "name": "Language Kit",
+    "price": 19.99,
+    "rating": 4.2,
+    "category": "Educational",
+    "sub_category": "Language",
+    "available_quantity": 5,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Language Kit includes interactive games and exercises to enhance children's language skills and vocabulary.",
+    "picture": "https://ae01.alicdn.com/kf/sf818b0efb5bf48b28e7c96c614e81e8cj/kids-english-educational-voice-reading-machine-book-smart-point-reading-pen-children-study-papers-learning-toys.jpg_q90.jpg_.webp"
+  },
+  {
+    "name": "Engineering Kit",
+    "price": 39.99,
+    "rating": 4.8,
+    "category": "Educational",
+    "sub_category": "Engineering",
+    "available_quantity": 3,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Engineering Kit introduces kids to the world of engineering through building and designing various structures and mechanisms.",
+    "picture": "https://cdn.mos.cms.futurecdn.net/poybd6yydrzpr7xkm28phe.jpg"
+  },
+  {
+    "name": "Science Kit",
+    "price": 29.99,
+    "rating": 4.7,
+    "category": "Educational",
+    "sub_category": "Science",
+    "available_quantity": 8,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Science Kit offers exciting experiments and activities that allow children to explore and understand different scientific concepts.",
+    "picture": "https://m.media-amazon.com/images/i/81zhm7rsbcl._ac_sl1500_.jpg"
+  },
+  {
+    "name": "Math Kit",
+    "price": 24.99,
+    "rating": 4.5,
+    "category": "Educational",
+    "sub_category": "Math",
+    "available_quantity": 10,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Math Kit is designed to help children learn mathematical concepts through hands-on activities and games.",
+    "picture": "https://cdn.shopify.com/s/files/1/0729/3773/4417/articles/math-toys.jpg?v=1682516680&width=1500"
+  },
+  {
+    "name": "Language Kit",
+    "price": 19.99,
+    "rating": 4.2,
+    "category": "Educational",
+    "sub_category": "Language",
+    "available_quantity": 5,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Language Kit includes interactive games and exercises to enhance children's language skills and vocabulary.",
+    "picture": "https://ae01.alicdn.com/kf/sf818b0efb5bf48b28e7c96c614e81e8cj/kids-english-educational-voice-reading-machine-book-smart-point-reading-pen-children-study-papers-learning-toys.jpg_q90.jpg_.webp"
+  },
+  {
+    "name": "Engineering Kit",
+    "price": 39.99,
+    "rating": 4.8,
+    "category": "Educational",
+    "sub_category": "Engineering",
+    "available_quantity": 3,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Engineering Kit introduces kids to the world of engineering through building and designing various structures and mechanisms.",
+    "picture": "https://cdn.mos.cms.futurecdn.net/poybd6yydrzpr7xkm28phe.jpg"
+  },
+  {
+    "name": "Science Kit",
+    "price": 29.99,
+    "rating": 4.7,
+    "category": "Educational",
+    "sub_category": "Science",
+    "available_quantity": 8,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Science Kit offers exciting experiments and activities that allow children to explore and understand different scientific concepts.",
+    "picture": "https://m.media-amazon.com/images/i/81zhm7rsbcl._ac_sl1500_.jpg"
+  },
+  {
+    "name": "Advanced Math Kit",
+    "price": 34.99,
+    "rating": 4.6,
+    "category": "Educational",
+    "sub_category": "Math",
+    "available_quantity": 6,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Advanced Math Kit is designed for older children to dive deeper into complex mathematical concepts and problem-solving skills.",
+    "picture": "https://example.com/advanced_math_kit.jpg"
+  },
+  {
+    "name": "Spelling and Grammar Kit",
+    "price": 17.99,
+    "rating": 4.1,
+    "category": "Educational",
+    "sub_category": "Language",
+    "available_quantity": 4,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Spelling and Grammar Kit helps children improve their spelling and grammar skills through fun and engaging exercises.",
+    "picture": "https://example.com/spelling_grammar_kit.jpg"
+  },
+  {
+    "name": "Math Kit",
+    "price": 24.99,
+    "rating": 4.5,
+    "category": "Educational",
+    "sub_category": "Math",
+    "available_quantity": 10,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Math Kit is designed to help children learn mathematical concepts through hands-on activities and games.",
+    "picture": "https://cdn.shopify.com/s/files/1/0729/3773/4417/articles/math-toys.jpg?v=1682516680&width=1500"
+  },
+  {
+    "name": "Language Kit",
+    "price": 19.99,
+    "rating": 4.2,
+    "category": "Educational",
+    "sub_category": "Language",
+    "available_quantity": 5,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Language Kit includes interactive games and exercises to enhance children's language skills and vocabulary.",
+    "picture": "https://ae01.alicdn.com/kf/sf818b0efb5bf48b28e7c96c614e81e8cj/kids-english-educational-voice-reading-machine-book-smart-point-reading-pen-children-study-papers-learning-toys.jpg_q90.jpg_.webp"
+  },
+  {
+    "name": "Engineering Kit",
+    "price": 39.99,
+    "rating": 4.8,
+    "category": "Educational",
+    "sub_category": "Engineering",
+    "available_quantity": 3,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Engineering Kit introduces kids to the world of engineering through building and designing various structures and mechanisms.",
+    "picture": "https://cdn.mos.cms.futurecdn.net/poybd6yydrzpr7xkm28phe.jpg"
+  },
+  {
+    "name": "Science Kit",
+    "price": 29.99,
+    "rating": 4.7,
+    "category": "Educational",
+    "sub_category": "Science",
+    "available_quantity": 8,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Science Kit offers exciting experiments and activities that allow children to explore and understand different scientific concepts.",
+    "picture": "https://m.media-amazon.com/images/i/81zhm7rsbcl._ac_sl1500_.jpg"
+  },
+  {
+    "name": "Advanced Math Kit",
+    "price": 34.99,
+    "rating": 4.6,
+    "category": "Educational",
+    "sub_category": "Math",
+    "available_quantity": 6,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Advanced Math Kit is designed for older children to dive deeper into complex mathematical concepts and problem-solving skills.",
+    "picture": "https://example.com/advanced_math_kit.jpg"
+  },
+  {
+    "name": "Spelling and Grammar Kit",
+    "price": 17.99,
+    "rating": 4.1,
+    "category": "Educational",
+    "sub_category": "Language",
+    "available_quantity": 4,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Spelling and Grammar Kit helps children improve their spelling and grammar skills through fun and engaging exercises.",
+    "picture": "https://example.com/spelling_grammar_kit.jpg"
+  },
+  {
+    "name": "Math Kit",
+    "price": 24.99,
+    "rating": 4.5,
+    "category": "Educational",
+    "sub_category": "Math",
+    "available_quantity": 10,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Math Kit is designed to help children learn mathematical concepts through hands-on activities and games.",
+    "picture": "https://cdn.shopify.com/s/files/1/0729/3773/4417/articles/math-toys.jpg?v=1682516680&width=1500"
+  },
+  {
+    "name": "Language Kit",
+    "price": 19.99,
+    "rating": 4.2,
+    "category": "Educational",
+    "sub_category": "Language",
+    "available_quantity": 5,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Language Kit includes interactive games and exercises to enhance children's language skills and vocabulary.",
+    "picture": "https://ae01.alicdn.com/kf/sf818b0efb5bf48b28e7c96c614e81e8cj/kids-english-educational-voice-reading-machine-book-smart-point-reading-pen-children-study-papers-learning-toys.jpg_q90.jpg_.webp"
+  },
+  {
+    "name": "Engineering Kit",
+    "price": 39.99,
+    "rating": 4.8,
+    "category": "Educational",
+    "sub_category": "Engineering",
+    "available_quantity": 3,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Engineering Kit introduces kids to the world of engineering through building and designing various structures and mechanisms.",
+    "picture": "https://cdn.mos.cms.futurecdn.net/poybd6yydrzpr7xkm28phe.jpg"
+  },
+  {
+    "name": "Science Kit",
+    "price": 29.99,
+    "rating": 4.7,
+    "category": "Educational",
+    "sub_category": "Science",
+    "available_quantity": 8,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Science Kit offers exciting experiments and activities that allow children to explore and understand different scientific concepts.",
+    "picture": "https://m.media-amazon.com/images/i/81zhm7rsbcl._ac_sl1500_.jpg"
+  },
+  {
+    "name": "Advanced Math Kit",
+    "price": 34.99,
+    "rating": 4.6,
+    "category": "Educational",
+    "sub_category": "Math",
+    "available_quantity": 6,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Advanced Math Kit is designed for older children to dive deeper into complex mathematical concepts and problem-solving skills.",
+    "picture": "https://example.com/advanced_math_kit.jpg"
+  },
+  {
+    "name": "Spelling and Grammar Kit",
+    "price": 17.99,
+    "rating": 4.1,
+    "category": "Educational",
+    "sub_category": "Language",
+    "available_quantity": 4,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Spelling and Grammar Kit helps children improve their spelling and grammar skills through fun and engaging exercises.",
+    "picture": "https://example.com/spelling_grammar_kit.jpg"
+  },
+  {
+    "name": "Math Kit",
+    "price": 24.99,
+    "rating": 4.5,
+    "category": "Educational",
+    "sub_category": "Math",
+    "available_quantity": 10,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Math Kit is designed to help children learn mathematical concepts through hands-on activities and games.",
+    "picture": "https://cdn.shopify.com/s/files/1/0729/3773/4417/articles/math-toys.jpg?v=1682516680&width=1500"
+  },
+  {
+    "name": "Language Kit",
+    "price": 19.99,
+    "rating": 4.2,
+    "category": "Educational",
+    "sub_category": "Language",
+    "available_quantity": 5,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Language Kit includes interactive games and exercises to enhance children's language skills and vocabulary.",
+    "picture": "https://ae01.alicdn.com/kf/sf818b0efb5bf48b28e7c96c614e81e8cj/kids-english-educational-voice-reading-machine-book-smart-point-reading-pen-children-study-papers-learning-toys.jpg_q90.jpg_.webp"
+  },
+  {
+    "name": "Engineering Kit",
+    "price": 39.99,
+    "rating": 4.8,
+    "category": "Educational",
+    "sub_category": "Engineering",
+    "available_quantity": 3,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Engineering Kit introduces kids to the world of engineering through building and designing various structures and mechanisms.",
+    "picture": "https://cdn.mos.cms.futurecdn.net/poybd6yydrzpr7xkm28phe.jpg"
+  },
+  {
+    "name": "Science Kit",
+    "price": 29.99,
+    "rating": 4.7,
+    "category": "Educational",
+    "sub_category": "Science",
+    "available_quantity": 8,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Science Kit offers exciting experiments and activities that allow children to explore and understand different scientific concepts.",
+    "picture": "https://m.media-amazon.com/images/i/81zhm7rsbcl._ac_sl1500_.jpg"
+  },
+  {
+    "name": "Advanced Math Kit",
+    "price": 34.99,
+    "rating": 4.6,
+    "category": "Educational",
+    "sub_category": "Math",
+    "available_quantity": 6,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Advanced Math Kit is designed for older children to dive deeper into complex mathematical concepts and problem-solving skills.",
+    "picture": "https://example.com/advanced_math_kit.jpg"
+  },
+  {
+    "name": "Spelling and Grammar Kit",
+    "price": 17.99,
+    "rating": 4.1,
+    "category": "Educational",
+    "sub_category": "Language",
+    "available_quantity": 4,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Spelling and Grammar Kit helps children improve their spelling and grammar skills through fun and engaging exercises.",
+    "picture": "https://example.com/spelling_grammar_kit.jpg"
+  },
+  {
+    "name": "Math Kit",
+    "price": 24.99,
+    "rating": 4.5,
+    "category": "Educational",
+    "sub_category": "Math",
+    "available_quantity": 10,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Math Kit is designed to help children learn mathematical concepts through hands-on activities and games.",
+    "picture": "https://cdn.shopify.com/s/files/1/0729/3773/4417/articles/math-toys.jpg?v=1682516680&width=1500"
+  },
+  {
+    "name": "Language Kit",
+    "price": 19.99,
+    "rating": 4.2,
+    "category": "Educational",
+    "sub_category": "Language",
+    "available_quantity": 5,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Language Kit includes interactive games and exercises to enhance children's language skills and vocabulary.",
+    "picture": "https://ae01.alicdn.com/kf/sf818b0efb5bf48b28e7c96c614e81e8cj/kids-english-educational-voice-reading-machine-book-smart-point-reading-pen-children-study-papers-learning-toys.jpg_q90.jpg_.webp"
+  },
+  {
+    "name": "Engineering Kit",
+    "price": 39.99,
+    "rating": 4.8,
+    "category": "Educational",
+    "sub_category": "Engineering",
+    "available_quantity": 3,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Engineering Kit introduces kids to the world of engineering through building and designing various structures and mechanisms.",
+    "picture": "https://cdn.mos.cms.futurecdn.net/poybd6yydrzpr7xkm28phe.jpg"
+  },
+  {
+    "name": "Science Kit",
+    "price": 29.99,
+    "rating": 4.7,
+    "category": "Educational",
+    "sub_category": "Science",
+    "available_quantity": 8,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Science Kit offers exciting experiments and activities that allow children to explore and understand different scientific concepts.",
+    "picture": "https://m.media-amazon.com/images/i/81zhm7rsbcl._ac_sl1500_.jpg"
+  },
+  {
+    "name": "Advanced Math Kit",
+    "price": 34.99,
+    "rating": 4.6,
+    "category": "Educational",
+    "sub_category": "Math",
+    "available_quantity": 6,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Advanced Math Kit is designed for older children to dive deeper into complex mathematical concepts and problem-solving skills.",
+    "picture": "https://example.com/advanced_math_kit.jpg"
+  },
+  {
+    "name": "Spelling and Grammar Kit",
+    "price": 17.99,
+    "rating": 4.1,
+    "category": "Educational",
+    "sub_category": "Language",
+    "available_quantity": 4,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Spelling and Grammar Kit helps children improve their spelling and grammar skills through fun and engaging exercises.",
+    "picture": "https://example.com/spelling_grammar_kit.jpg"
+  },
+  {
+    "name": "Math Kit",
+    "price": 24.99,
+    "rating": 4.5,
+    "category": "Educational",
+    "sub_category": "Math",
+    "available_quantity": 10,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Math Kit is designed to help children learn mathematical concepts through hands-on activities and games.",
+    "picture": "https://cdn.shopify.com/s/files/1/0729/3773/4417/articles/math-toys.jpg?v=1682516680&width=1500"
+  },
+  {
+    "name": "Language Kit",
+    "price": 19.99,
+    "rating": 4.2,
+    "category": "Educational",
+    "sub_category": "Language",
+    "available_quantity": 5,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Language Kit includes interactive games and exercises to enhance children's language skills and vocabulary.",
+    "picture": "https://ae01.alicdn.com/kf/sf818b0efb5bf48b28e7c96c614e81e8cj/kids-english-educational-voice-reading-machine-book-smart-point-reading-pen-children-study-papers-learning-toys.jpg_q90.jpg_.webp"
+  },
+  {
+    "name": "Engineering Kit",
+    "price": 39.99,
+    "rating": 4.8,
+    "category": "Educational",
+    "sub_category": "Engineering",
+    "available_quantity": 3,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Engineering Kit introduces kids to the world of engineering through building and designing various structures and mechanisms.",
+    "picture": "https://cdn.mos.cms.futurecdn.net/poybd6yydrzpr7xkm28phe.jpg"
+  },
+  {
+    "name": "Science Kit",
+    "price": 29.99,
+    "rating": 4.7,
+    "category": "Educational",
+    "sub_category": "Science",
+    "available_quantity": 8,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Science Kit offers exciting experiments and activities that allow children to explore and understand different scientific concepts.",
+    "picture": "https://m.media-amazon.com/images/i/81zhm7rsbcl._ac_sl1500_.jpg"
+  },
+  {
+    "name": "Advanced Math Kit",
+    "price": 34.99,
+    "rating": 4.6,
+    "category": "Educational",
+    "sub_category": "Math",
+    "available_quantity": 6,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Advanced Math Kit is designed for older children to dive deeper into complex mathematical concepts and problem-solving skills.",
+    "picture": "https://example.com/advanced_math_kit.jpg"
+  },
+  {
+    "name": "Spelling and Grammar Kit",
+    "price": 17.99,
+    "rating": 4.1,
+    "category": "Educational",
+    "sub_category": "Language",
+    "available_quantity": 4,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Spelling and Grammar Kit helps children improve their spelling and grammar skills through fun and engaging exercises.",
+    "picture": "https://example.com/spelling_grammar_kit.jpg"
+  },
+  {
+    "name": "Math Kit",
+    "price": 24.99,
+    "rating": 4.5,
+    "category": "Educational",
+    "sub_category": "Math",
+    "available_quantity": 10,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Math Kit is designed to help children learn mathematical concepts through hands-on activities and games.",
+    "picture": "https://cdn.shopify.com/s/files/1/0729/3773/4417/articles/math-toys.jpg?v=1682516680&width=1500"
+  },
+  {
+    "name": "Language Kit",
+    "price": 19.99,
+    "rating": 4.2,
+    "category": "Educational",
+    "sub_category": "Language",
+    "available_quantity": 5,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Language Kit includes interactive games and exercises to enhance children's language skills and vocabulary.",
+    "picture": "https://ae01.alicdn.com/kf/sf818b0efb5bf48b28e7c96c614e81e8cj/kids-english-educational-voice-reading-machine-book-smart-point-reading-pen-children-study-papers-learning-toys.jpg_q90.jpg_.webp"
+  },
+  {
+    "name": "Engineering Kit",
+    "price": 39.99,
+    "rating": 4.8,
+    "category": "Educational",
+    "sub_category": "Engineering",
+    "available_quantity": 3,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Engineering Kit introduces kids to the world of engineering through building and designing various structures and mechanisms.",
+    "picture": "https://cdn.mos.cms.futurecdn.net/poybd6yydrzpr7xkm28phe.jpg"
+  },
+  {
+    "name": "Science Kit",
+    "price": 29.99,
+    "rating": 4.7,
+    "category": "Educational",
+    "sub_category": "Science",
+    "available_quantity": 8,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Science Kit offers exciting experiments and activities that allow children to explore and understand different scientific concepts.",
+    "picture": "https://m.media-amazon.com/images/i/81zhm7rsbcl._ac_sl1500_.jpg"
+  },
+  {
+    "name": "Advanced Math Kit",
+    "price": 34.99,
+    "rating": 4.6,
+    "category": "Educational",
+    "sub_category": "Math",
+    "available_quantity": 6,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Advanced Math Kit is designed for older children to dive deeper into complex mathematical concepts and problem-solving skills.",
+    "picture": "https://example.com/advanced_math_kit.jpg"
+  },
+  {
+    "name": "Spelling and Grammar Kit",
+    "price": 17.99,
+    "rating": 4.1,
+    "category": "Educational",
+    "sub_category": "Language",
+    "available_quantity": 4,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "The Spelling and Grammar Kit helps children improve their spelling and grammar skills through fun and engaging exercises.",
+    "picture": "https://example.com/spelling_grammar_kit.jpg"
+  }
 ]
