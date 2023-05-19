@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { AuthContext } from '../../Provider/AuthProvider';
 import ToyCard from './ToyCard';
+import Modal from '../Modal/Modal';
 
 const MyToys = () => {
     const { user } = useContext(AuthContext)
@@ -64,6 +65,7 @@ const MyToys = () => {
                     </tbody>
                 </table>
             </div>
+            <Modal></Modal>
         </div>
     );
 };

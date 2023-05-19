@@ -28,9 +28,11 @@ const ToyCard = ({ myToy, index }) => {
                     <span className="badge badge-ghost badge-sm">{seller_name}</span>
                 </td>
                 <td>{price}$</td>
-                <th className='flex justify-between'>
+                <th className='flex justify-between p-5'>
                     <span className='w-[40px] rounded-full h-[40px] flex justify-center items-center bg-[rgba(18,10,255,0.1)]'><FaFileAlt className='text-blue-500 text-2xl'></FaFileAlt></span>
-                    <span className='w-[40px] rounded-full h-[40px] flex justify-center items-center bg-[rgba(26,255,10,0.1)]'><FaEdit className='text-green-500 text-2xl'></FaEdit></span>
+                    <label htmlFor="my-modal-5" className="">
+                        <span  className='w-[40px] rounded-full h-[40px] flex justify-center items-center bg-[rgba(26,255,10,0.1)]'><FaEdit className='text-green-500 text-2xl'></FaEdit></span>
+                    </label>
                     <span className='w-[40px] rounded-full h-[40px] flex justify-center items-center bg-[rgba(255,10,10,0.1)]'><FaTrash className='text-red-500 text-2xl'></FaTrash></span>
                 </th>
             </tr>
