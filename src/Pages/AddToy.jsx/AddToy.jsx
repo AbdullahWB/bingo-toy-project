@@ -5,7 +5,20 @@ import { AuthContext } from '../../Provider/AuthProvider';
 const AddToy = () => {
     const { user } = useContext(AuthContext)
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
-    const onSubmit = data => console.log(data);
+    const onSubmit = data => {
+        fetch("http://localhost:3000/addToy", {
+            method: "POST",
+            headers: {
+                'content-type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        })
+            .then(res => res.json())
+            .then(result => {
+            console.log(result);
+            })
+        console.log(data)
+    };
     return (
         <div className='my-[100px] max-w-7xl mx-auto'>
             <form className='bg-[rgba(229,125,65,0.1)] rounded-lg p-20' onSubmit={handleSubmit(onSubmit)}>
@@ -47,10 +60,10 @@ const AddToy = () => {
                         value="Educational"
                     />
                     <select className="input w-full border border-primary" {...register("sub_category")}>
-                        <option value="Engineering">Language</option>
-                        <option value="Editor">Engineering</option>
-                        <option value="writer">Science</option>
-                        <option value="Developer">Math</option>
+                        <option value="Language">Language</option>
+                        <option value="Engineering">Engineering</option>
+                        <option value="Science">Science</option>
+                        <option value="Math">Math</option>
                     </select>
                     <input
                         className="input w-full border border-primary"
