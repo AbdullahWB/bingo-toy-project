@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const TabCart = ({ tab }) => {
     const {rating, picture, price, name, _id} = tab;
@@ -12,7 +13,7 @@ const TabCart = ({ tab }) => {
                     <h2 className="card-title">{name}</h2>
                     <p>Price: {price}$</p>
                     <div className="card-actions">
-                        <button className="btn btn-primary">View details</button>
+                        <Link to={`/details/${_id}`}><button className="btn btn-primary">View details</button></Link>
                     </div>
                 </div>
             </div>
