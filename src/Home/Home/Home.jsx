@@ -3,6 +3,7 @@ import Banner from '../Banner/Banner';
 import Tabes from '../Tabs/Tabs';
 import Gallery from '../Gallery/Gallery';
 import ForCollection from '../ForCollection/ForCollection';
+import Offer from '../Offer/Offer';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <ForCollection></ForCollection>
             <Gallery></Gallery>
             <Tabes></Tabes>
+            <Offer></Offer>
         </div>
     );
 };
