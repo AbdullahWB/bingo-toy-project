@@ -20,19 +20,19 @@ const AuthProvider = ({children}) => {
         return signInWithEmailAndPassword(auth, email, password)
     }
 
-    // const singInGoogle = () => {
-    //     setLoading(true)
-    //     const provider = new GoogleAuthProvider()
-    //     return signInWithPopup(auth, provider)
-    // }
+    const singInGoogle = () => {
+        setLoading(true)
+        const provider = new GoogleAuthProvider()
+        return signInWithPopup(auth, provider)
+    }
 
-    // const profileUpdate = (name, photo) => {
-    //     setLoading(true)
-    //     return updateProfile(auth.currentUser, {
-    //         displayName: name,
-    //         photoURL: photo,
-    //     })
-    // }
+    const profileUpdate = (name, photo) => {
+        setLoading(true)
+        return updateProfile(auth.currentUser, {
+            displayName: name,
+            photoURL: photo,
+        })
+    }
 
     const resetPassword = (email) => {
         setLoading(true)
@@ -61,7 +61,9 @@ const AuthProvider = ({children}) => {
         singUp,
         signIn,
         resetPassword,
-        singOut
+        singOut,
+        singInGoogle,
+        profileUpdate
     }
 
     return (
