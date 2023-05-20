@@ -19,7 +19,7 @@ const Navbar = () => {
         <li className='hover:text-white font-semibold hover:bg-primary rounded-lg '><Link to='/allToys'>AllToy</Link></li>
         <li className='hover:text-white font-semibold hover:bg-primary rounded-lg '><Link to='/myToys'>MyToy</Link></li>
         <li className='hover:text-white font-semibold hover:bg-primary rounded-lg '><Link to='/addToy'>AddToy</Link></li>
-        <li className='hover:text-white font-semibold hover:bg-primary rounded-lg '><Link>Blogs</Link></li>
+        <li className='hover:text-white font-semibold hover:bg-primary rounded-lg '><Link to='/blog'>Blogs</Link></li>
     </>
     return (
         <>
