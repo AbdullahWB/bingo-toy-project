@@ -9,14 +9,22 @@ const MyToys = () => {
     const [myToys, setMyToys] = useState([])
     const [update, setUpdate] = useState(false)
     const [search, setSearch] = useState("")
+    const [sortOrder, setSortOrder] = useState("asc")
+
+
     useEffect(() => {
-        fetch(`https://bingo-toy-server.vercel.app/myToy/${user?.email}`)
+        fetch(`https://bingo-toy-server.vercel.app/myToy/${user?.email}?sortOrder=${sortOrder}`)
             .then(res => res.json())
             .then(data => {
                 console.log(data);
                 setMyToys(data);
             })
-    }, [user, update])
+    }, [user, update, sortOrder]);
+
+    const handleSort = () => {
+        const newSortOrder = sortOrder === "asc" ? "desc" : "asc";
+        setSortOrder(newSortOrder);
+    };
 
     const handleDeleteToy = id => {
         Swal.fire({
@@ -30,7 +38,7 @@ const MyToys = () => {
         }).then((result) => {
             if (result.isConfirmed) {
                 fetch(`https://bingo-toy-server.vercel.app/products/${id}`, {
-                    method: 'DELETE',   
+                    method: 'DELETE',
                 })
                     .then(res => res.json())
                     .then(data => {
@@ -76,6 +84,9 @@ const MyToys = () => {
 
     return (
         <div className='max-w-7xl mx-auto'>
+            <div>
+                <button onClick={handleSort}>Sort by Price</button>
+            </div>
             <div className="form-control my-[50px]">
                 <div className="input-group">
                     <input
