@@ -15,14 +15,14 @@ const AllToys = () => {
     const pageNumbers = [...Array(totalPerPage).keys()]
 
     // useEffect(() => {
-    //     fetch('https://bingo-toy-server.vercel.app/products')
+    //     fetch('http://localhost:3000/products')
     //         .then(res => res.json())
     //         .then(data => setAllToys(data))
     // }, [])
 
     useEffect(() => {
         async function fetchData() {
-            const response = await fetch(`https://bingo-toy-server.vercel.app/products?page=${currentPage}&limit=${itemsPerPage}`)
+            const response = await fetch(`http://localhost:3000/products?page=${currentPage}&limit=${itemsPerPage}`)
             const data = await response.json();
             setAllToys(data);
         }
@@ -30,7 +30,7 @@ const AllToys = () => {
     }, [currentPage, itemsPerPage])
 
     const handleSearch = () => {
-        fetch(`https://bingo-toy-server.vercel.app/itemSearch/${search}`)
+        fetch(`http://localhost:3000/itemSearch/${search}`)
             .then(res => res.json())
             .then(data => {
                 setAllToys(data);

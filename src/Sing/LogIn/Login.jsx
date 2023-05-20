@@ -1,14 +1,23 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useRef, useState } from 'react';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 import login from '../../assets/129750-login-orange.json'
 import profile from '../../assets/107137-add-profile-picture.json'
 import Lottie from 'lottie-react'
 import { toast } from 'react-hot-toast';
 import { AuthContext } from '../../Provider/AuthProvider';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 const Login = () => {
-    const { signIn } = useContext(AuthContext)
+    const { signIn, resetPassword } = useContext(AuthContext)
     const [show, setShow] = useState(false)
+    const navigate = useNavigate();
+    const location = useLocation()
+    const from = location?.state?.from?.pathname || '/'
+    console.log("from login", from);
+    // const emailRef = useRef()
+
+
+
     const handleSingData = event => {
         event.preventDefault();
         const form = event.target;
@@ -20,13 +29,28 @@ const Login = () => {
             .then(result => {
                 const loggedUser = result.user;
                 console.log(loggedUser);
-                // navigate(from, { replace: true })
+                navigate(from, { replace: true })
             })
             .catch(error => {
                 const err = (error.message);
                 toast.error(err)
             })
     }
+
+    // const handelRestPasswords = () => {
+    //     const email = (emailRef.current.value);
+    //     if (!email) {
+    //         toast.error("Enter your email to rest password ⚠️")
+    //     }
+    //     resetPassword(email)
+    //         .then(() => {
+    //             toast.success('Product added! 🛒')
+    //         })
+    //         .catch(error => {
+    //             const err = (error.message);
+    //             toast.error(err)
+    //         })
+    // }
 
     return (
         <div className='grid grid-cols-2 gap-8 max-w-7xl mx-auto mt-[50px] mb-[100px]'>
@@ -61,6 +85,9 @@ const Login = () => {
                                 </span>
                             </span>
                         </div>
+                        {/* <div>
+                            <button className='btn btn-link btn-primary' onClick={handelRestPasswords}>Forgot Password?</button>
+                        </div> */}
                         <input className='btn btn-outline btn-primary mt-5 text-white' type="submit" value="SingIn" />
                     </form>
                 </div>

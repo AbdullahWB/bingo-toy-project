@@ -6,7 +6,7 @@ const AddToy = () => {
     const { user } = useContext(AuthContext)
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     const onSubmit = data => {
-        fetch("https://bingo-toy-server.vercel.app/addToy", {
+        fetch("http://localhost:3000/addToy", {
             method: "POST",
             headers: {
                 'content-type': 'application/json'

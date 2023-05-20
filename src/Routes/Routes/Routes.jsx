@@ -8,6 +8,7 @@ import MyToys from "../../Pages/MyToys/MyToys";
 import AllToys from "../../Pages/AllToys/AllToys";
 import Details from "../../Pages/Details/Details";
 import Error from "../../Pages/Error/Error";
+import PrivetRoute from "../PrivetRoute/PrivetRoute";
 
 const router = createBrowserRouter([
     {
@@ -33,17 +34,17 @@ const router = createBrowserRouter([
             },
             {
                 path: '/myToys',
-                element: <MyToys></MyToys>
+                element: <PrivetRoute><MyToys></MyToys></PrivetRoute>
             },
             {
                 path: '/allToys',
                 element: <AllToys></AllToys>,
-                loader: ()=> fetch('https://bingo-toy-server.vercel.app/totalProducts')
+                loader: ()=> fetch('http://localhost:3000/totalProducts')
             },
             {
                 path: '/details/:id',
-                element: <Details></Details>,
-                loader: ({params})=> fetch(`https://bingo-toy-server.vercel.app/products/details/${params.id}`)
+                element: <PrivetRoute><Details></Details></PrivetRoute>,
+                loader: ({params})=> fetch(`http://localhost:3000/products/details/${params.id}`)
             }
         ]
     }

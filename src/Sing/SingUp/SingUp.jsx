@@ -5,10 +5,18 @@ import { FaGoogle, FaEye, FaEyeSlash  } from "react-icons/fa";
 import Lottie from 'lottie-react'
 import { AuthContext } from '../../Provider/AuthProvider';
 import { toast } from 'react-hot-toast';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 const SingUp = () => {
     const { singUp } = useContext(AuthContext)
     const [show, setShow] = useState(false)
+    // const navigate = useNavigate();
+    // const location = useLocation()
+    // const from = location.state?.from?.pathname || '/'
+
+
+
+
     const handleSingData = event => {
         event.preventDefault();
         const form = event.target;
