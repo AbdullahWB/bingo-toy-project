@@ -7,11 +7,13 @@ import AddToy from "../../Pages/AddToy.jsx/AddToy";
 import MyToys from "../../Pages/MyToys/MyToys";
 import AllToys from "../../Pages/AllToys/AllToys";
 import Details from "../../Pages/Details/Details";
+import Error from "../../Pages/Error/Error";
 
 const router = createBrowserRouter([
     {
         path: '/',
         element: <Main></Main>,
+        errorElement: <Error></Error>,
         children: [
             {
                 path: '/',
