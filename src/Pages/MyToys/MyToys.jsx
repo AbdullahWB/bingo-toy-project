@@ -10,7 +10,7 @@ const MyToys = () => {
     const [update, setUpdate] = useState(false)
     const [search, setSearch] = useState("")
     useEffect(() => {
-        fetch(`http://localhost:3000/myToy/${user?.email}`)
+        fetch(`https://bingo-toy-server.vercel.app/myToy/${user?.email}`)
             .then(res => res.json())
             .then(data => {
                 console.log(data);
@@ -29,7 +29,7 @@ const MyToys = () => {
             confirmButtonText: 'Yes, delete it!'
         }).then((result) => {
             if (result.isConfirmed) {
-                fetch(`http://localhost:3000/products/${id}`, {
+                fetch(`https://bingo-toy-server.vercel.app/products/${id}`, {
                     method: 'DELETE',   
                 })
                     .then(res => res.json())
@@ -50,7 +50,7 @@ const MyToys = () => {
     }
 
     const handleSearch = () => {
-        fetch(`http://localhost:3000/itemSearch/${search}`)
+        fetch(`https://bingo-toy-server.vercel.app/itemSearch/${search}`)
             .then(res => res.json())
             .then(data => {
                 setMyToys(data);
@@ -58,7 +58,7 @@ const MyToys = () => {
     }
 
     const handleUpdateToyData = (data) => {
-        fetch(`http://localhost:3000/updateToy/${data._id}`, {
+        fetch(`https://bingo-toy-server.vercel.app/updateToy/${data._id}`, {
             method: 'PUT',
             headers: {
                 "content-type": "application/json"

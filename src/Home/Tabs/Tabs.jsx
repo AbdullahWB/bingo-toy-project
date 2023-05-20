@@ -5,7 +5,7 @@ const Tabs = () => {
     const [tabs, setTabs] = useState([])
     const [activeTab, setActiveTab] = useState("Science");
     useEffect(() => {
-        fetch(`http://localhost:3000/products/${activeTab}`)
+        fetch(`https://bingo-toy-server.vercel.app/products/${activeTab}`)
             .then(res => res.json())
             .then(data => setTabs(data))
     }, [activeTab])
