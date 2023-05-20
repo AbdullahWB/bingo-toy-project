@@ -8,7 +8,7 @@ import { toast } from 'react-hot-toast';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 const SingUp = () => {
-    const { singUp, singInGoogle } = useContext(AuthContext)
+    const { singUp, singInGoogle, singInGithub } = useContext(AuthContext)
     const [show, setShow] = useState(false)
     const navigate = useNavigate();
     const location = useLocation()
@@ -39,15 +39,28 @@ const SingUp = () => {
 
     const handleSingUpGoogle = () => {
         singInGoogle()
-        .then(result => {
-            const user = result.user;
-            console.log(user);
-            navigate(from, { replace: true })
-        })
-        .catch(error => {
-            const err = (error.message);
-            toast.error(err)
-        })
+            .then(result => {
+                const user = result.user;
+                console.log(user);
+                navigate(from, { replace: true })
+            })
+            .catch(error => {
+                const err = (error.message);
+                toast.error(err)
+            })
+    }
+
+    const handleSingUpGithub = () => {
+        singInGithub()
+            .then(result => {
+                const user = result.user;
+                console.log(user);
+                navigate(from, { replace: true })
+            })
+            .catch(error => {
+                const err = (error.message);
+                toast.error(err)
+            })
     }
 
 
@@ -104,7 +117,7 @@ const SingUp = () => {
                                 <p className='mb-5'>or sign in with other accounts?</p>
                                 <div className='grid gap-8 grid-cols-2'>
                                     <button onClick={handleSingUpGoogle} className="btn btn-outline btn-accent"><FaGoogle className='mr-2'></FaGoogle> Google</button>
-                                    <button className="btn btn-outline btn-secondary"><FaGithub className='mr-2'></FaGithub> GitHub</button>
+                                    <button onClick={handleSingUpGithub} className="btn btn-outline btn-secondary"><FaGithub className='mr-2'></FaGithub> GitHub</button>
                                 </div>
                                 <p className='mt-5'>Already have an Account <Link to='/login' className='text-primary'>Sign In</Link></p>
                             </div>

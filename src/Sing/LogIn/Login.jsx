@@ -8,7 +8,7 @@ import { AuthContext } from '../../Provider/AuthProvider';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 const Login = () => {
-    const { signIn, singInGoogle } = useContext(AuthContext)
+    const { signIn, singInGoogle, singInGithub } = useContext(AuthContext)
     const [show, setShow] = useState(false)
     const navigate = useNavigate();
     const location = useLocation()
@@ -47,6 +47,19 @@ const Login = () => {
             const err = (error.message);
             toast.error(err)
         })
+    }
+
+    const handleSingInGithub = () => {
+        singInGithub()
+            .then(result => {
+                const user = result.user;
+                console.log(user);
+                navigate(from, { replace: true })
+            })
+            .catch(error => {
+                const err = (error.message);
+                toast.error(err)
+            })
     }
 
 
@@ -90,7 +103,7 @@ const Login = () => {
                                 <p className='mb-5'>or sign in with other accounts?</p>
                                 <div className='grid gap-8 grid-cols-2'>
                                     <button onClick={handleSingInGoogle} className="btn btn-outline btn-accent"><FaGoogle className='mr-2'></FaGoogle> Google</button>
-                                    <button className="btn btn-outline btn-secondary"><FaGithub className='mr-2'></FaGithub> GitHub</button>
+                                    <button onClick={handleSingInGithub} className="btn btn-outline btn-secondary"><FaGithub className='mr-2'></FaGithub> GitHub</button>
                                 </div>
                                 <p className='mt-5'>Don’t have an account? <Link to='/singUp' className='text-primary'>Click here to sign up.</Link></p>
                             </div>
