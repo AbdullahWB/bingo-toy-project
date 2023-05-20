@@ -1,13 +1,12 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { AuthContext } from '../../Provider/AuthProvider';
 import ToyCard from './ToyCard';
-import Modal from '../Modal/Modal';
 
 const MyToys = () => {
     const { user } = useContext(AuthContext)
     // console.log(user.email);
     const [myToys, setMyToys] = useState([])
-    const [control, setControl] = useState(false)
+    const [update, setUpdate] = useState(false)
     const [search, setSearch] = useState("")
     useEffect(() => {
         fetch(`http://localhost:3000/myToy/${user?.email}`)
@@ -16,7 +15,7 @@ const MyToys = () => {
                 console.log(data);
                 setMyToys(data);
             })
-    }, [user, control])
+    }, [user, update])
 
     const handleSearch = () => {
         fetch(`http://localhost:3000/itemSearch/${search}`)
@@ -37,7 +36,7 @@ const MyToys = () => {
             .then(res => res.json())
             .then(result => {
                 if (result.modifiedCount > 0) { 
-                    setControl(!control)
+                    setUpdate(!update)
                 }
             })
     }

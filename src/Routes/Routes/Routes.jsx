@@ -5,6 +5,7 @@ import SingUp from "../../Sing/SingUp/SingUp";
 import Login from "../../Sing/LogIn/Login";
 import AddToy from "../../Pages/AddToy.jsx/AddToy";
 import MyToys from "../../Pages/MyToys/MyToys";
+import AllToys from "../../Pages/AllToys/AllToys";
 
 const router = createBrowserRouter([
     {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
             {
                 path: '/myToys',
                 element: <MyToys></MyToys>
+            },
+            {
+                path: '/allToys',
+                element: <AllToys></AllToys>
             }
         ]
     }
