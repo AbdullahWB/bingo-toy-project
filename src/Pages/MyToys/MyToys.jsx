@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { AuthContext } from '../../Provider/AuthProvider';
 import ToyCard from './ToyCard';
+import Swal from 'sweetalert2';
 
 const MyToys = () => {
     const { user } = useContext(AuthContext)
@@ -17,6 +18,37 @@ const MyToys = () => {
             })
     }, [user, update])
 
+    const handleDeleteToy = id => {
+        Swal.fire({
+            title: 'Are you sure?',
+            text: "You won't be able to revert this!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Yes, delete it!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                fetch(`http://localhost:3000/products/${id}`, {
+                    method: 'DELETE',   
+                })
+                    .then(res => res.json())
+                    .then(data => {
+                        console.log(data);
+                        if (data.deletedCount > 0) {
+                            Swal.fire(
+                                'Deleted!',
+                                'Your file has been deleted.',
+                                'success'
+                            )
+                            const remaining = myToys.filter(myToy => myToy._id !== id);
+                            setMyToys(remaining)
+                        }
+                    })
+            }
+        })
+    }
+
     const handleSearch = () => {
         fetch(`http://localhost:3000/itemSearch/${search}`)
             .then(res => res.json())
@@ -25,7 +57,7 @@ const MyToys = () => {
             })
     }
 
-    const handleUpdateToyData = (data) => { 
+    const handleUpdateToyData = (data) => {
         fetch(`http://localhost:3000/updateToy/${data._id}`, {
             method: 'PUT',
             headers: {
@@ -35,7 +67,7 @@ const MyToys = () => {
         })
             .then(res => res.json())
             .then(result => {
-                if (result.modifiedCount > 0) { 
+                if (result.modifiedCount > 0) {
                     setUpdate(!update)
                 }
             })
@@ -48,7 +80,7 @@ const MyToys = () => {
                 <div className="input-group">
                     <input
                         type="text"
-                        onChange={(e)=> setSearch(e.target.value)}
+                        onChange={(e) => setSearch(e.target.value)}
                         placeholder="Search…"
                         className="input input-bordered" />
                     <button onClick={handleSearch} className="btn btn-square">
@@ -77,6 +109,7 @@ const MyToys = () => {
                                 myToy={myToy}
                                 index={index}
                                 handleUpdateToyData={handleUpdateToyData}
+                                handleDeleteToy={handleDeleteToy}
                             ></ToyCard>)
                         }
                     </tbody>
