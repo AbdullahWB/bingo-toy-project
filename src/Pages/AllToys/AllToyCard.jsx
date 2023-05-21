@@ -3,7 +3,7 @@ import { FaFileAlt } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const AllToyCard = ({allToy, index}) => {
-    const { _id, name, price, category, picture, seller_email, seller_name, sub_category } = allToy || {};
+    const { _id, name, price, category, picture, seller_email, seller_name, sub_category, available_quantity } = allToy || {};
     return (
         <>
          <tr>
@@ -29,6 +29,7 @@ const AllToyCard = ({allToy, index}) => {
                     <span className="badge badge-ghost badge-sm">{seller_name}</span>
                 </td>
                 <td>{price}$</td>
+                <td>{available_quantity}</td>
                 <th>
                    <Link to={`/details/${_id}`}> <span className='w-[40px] rounded-full h-[40px] flex justify-center items-center bg-[rgba(18,10,255,0.1)]'><FaFileAlt className='text-blue-500 text-2xl'></FaFileAlt></span></Link>
                 </th>

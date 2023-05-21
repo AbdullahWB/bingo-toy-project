@@ -4,7 +4,7 @@ import Modal from '../Modal/Modal';
 import { Link } from 'react-router-dom';
 
 const ToyCard = ({ myToy, index, handleUpdateToyData, handleDeleteToy }) => {
-    const { _id, name, price, category, picture, seller_email, seller_name, sub_category } = myToy || {};
+    const { _id, name, price, category, picture, seller_email, seller_name, sub_category, available_quantity } = myToy || {};
     return (
         <>
             <tr>
@@ -30,6 +30,7 @@ const ToyCard = ({ myToy, index, handleUpdateToyData, handleDeleteToy }) => {
                     <span className="badge badge-ghost badge-sm">{seller_name}</span>
                 </td>
                 <td>{price}$</td>
+                <td>{available_quantity}</td>
                 <th className='flex justify-between p-5'>
                     <Link to={`/details/${_id}`}><span className='w-[40px] rounded-full h-[40px] flex justify-center items-center bg-[rgba(18,10,255,0.1)]'><FaFileAlt className='text-blue-500 text-2xl'></FaFileAlt></span></Link>
                     <label htmlFor="my-modal-5" className="">

@@ -116,6 +116,7 @@ const MyToys = () => {
                             <th>Product Information</th>
                             <th>Seller Information</th>
                             <th>Price</th>
+                            <th>Available</th>
                             <th>Details, Edit, Delete</th>
                         </tr>
                     </thead>

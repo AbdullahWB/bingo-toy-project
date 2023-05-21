@@ -37,7 +37,13 @@ const Navbar = () => {
                             {navLink}
                         </ul>
                     </div>
-                    <Link to='/' className="btn btn-ghost font-bold text-2xl"><span className='text-primary flex items-center mr-2'>Bin<FaMicroscope></FaMicroscope>o</span>Toy</Link>
+                    {/* <Link to='/' className="btn btn-ghost font-bold text-2xl"><span className='text-primary flex items-center mr-2'>Bin<FaMicroscope></FaMicroscope>o</span>Toy</Link> */}
+                    <Link>
+                        <div className='flex gap-1'>
+                            <img className='lg:w-[70px] w-[50px]' src="https://i.ibb.co/w47cq76/kids-zone-children-entertaiment-cartoons-18591-51532-removebg-preview.png" alt="" />
+                            <h1 className="font-bold lg:text-2xl text-xl flex justify-center items-center"><span className='text-primary flex items-center'>Bin<FaMicroscope></FaMicroscope>o</span>Toy</h1>
+                        </div>
+                    </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
