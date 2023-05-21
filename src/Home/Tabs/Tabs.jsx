@@ -16,7 +16,7 @@ const Tabs = () => {
         setActiveTab(tab);
     };
     return (
-        <div className='max-w-7xl mx-auto'>
+        <div className='max-w-7xl mx-auto' data-aos="slide-up" data-aos-easing="ease-in-out" data-aos-duration="2000">
             <div className='grid grid-cols-4 w-full h-full gap-8'>
                 <div onClick={() => handleClickTab("Science")} className='bg-[#6F5EFA] flex justify-between w-full h-full items-center rounded-lg p-5 cursor-pointer hover:scale-105 transition-all'>
                     <img className='w-auto h-[110px]' src="https://i.ibb.co/j6CKDLf/science-word-concept-23-2148533907-removebg-preview.png" alt="" />

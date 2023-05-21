@@ -2,7 +2,7 @@ import React from 'react';
 
 const Testimonial = () => {
     return (
-        <div className='max-w-7xl mx-auto mb-[130px]'>
+        <div className='max-w-7xl mx-auto mb-[130px]' data-aos="slide-left" data-aos-easing="ease-in-out" data-aos-duration="2000">
             <h1 className='text-6xl text-primary font-light text-center'>Customer Saying</h1>
             <p className='text-xl text-center my-8'>Customer Testimonials</p>
             <div className="carousel w-full">

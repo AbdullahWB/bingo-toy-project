@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Offer = () => {
     return (
-        <div className='grid grid-cols-2 gap-10 max-w-7xl mx-auto h-[350px] mb-[130px]'>
+        <div className='grid grid-cols-2 gap-10 max-w-7xl mx-auto h-[350px] mb-[130px]' data-aos="slide-down" data-aos-easing="ease-in-out" data-aos-duration="2000">
             <div className='relative bg-[#5CDEFF] rounded-lg p-10'>
                 <img className='w-auto h-[250px]' src="https://i.ibb.co/9tN30LB/little-boy-wearing-blue-helmet-sitting-playing-with-construction-equipment-toy-white-1150-15587-remo.png" alt="" />
                 <div className='absolute inset-0 text-white p-10 flex flex-col justify-center items-end text-right'>

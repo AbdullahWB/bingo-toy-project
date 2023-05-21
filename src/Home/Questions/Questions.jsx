@@ -1,8 +1,10 @@
 import React from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 const Questions = () => {
     return (
-        <div className='max-w-7xl mx-auto mb-[130px]'>
+        <div data-aos="flip-up" data-aos-easing="ease-in-out" data-aos-duration="2000" data-aos-anchor-placement="top-bottom" className='max-w-7xl mx-auto mb-[130px]'>
             <h1 className='text-6xl text-primary font-light text-center'>Frequently Asked Questions</h1>
             <p className='text-xl text-center my-8'>Find your answer from here</p>
             <div className='grid grid-cols-2 gap-10'>

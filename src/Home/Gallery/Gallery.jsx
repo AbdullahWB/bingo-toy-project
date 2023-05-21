@@ -2,7 +2,7 @@ import React from 'react';
 
 const Gallery = () => {
     return (
-        <div className='max-w-7xl mx-auto mb-[130px]'>
+        <div className='max-w-7xl mx-auto mb-[130px]' data-aos="slide-right" data-aos-easing="ease-in-out" data-aos-duration="2000">
             <h1 className='text-6xl text-primary font-light text-center'>Recent Photoshoots</h1>
             <p className='text-xl text-center my-8'>Happy Customer</p>
             <div className='grid grid-cols-12 gap-5'>
