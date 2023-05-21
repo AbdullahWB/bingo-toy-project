@@ -1,8 +1,10 @@
 import React, { useContext } from 'react';
 import { AuthContext } from '../../Provider/AuthProvider';
+import useTitle from '../../Hooks/useTitle';
 
 const Profile = () => {
     const { user, profileUpdate } = useContext(AuthContext)
+    useTitle('Profile')
 
     const handleUpdate = event => {
         event.preventDefault();

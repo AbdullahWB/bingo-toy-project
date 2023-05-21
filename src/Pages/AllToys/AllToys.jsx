@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import AllToyCard from './AllToyCard';
 import { useLoaderData } from 'react-router-dom';
+import useTitle from '../../Hooks/useTitle';
 
 const AllToys = () => {
     const [allToys, setAllToys] = useState([])
@@ -8,6 +9,7 @@ const AllToys = () => {
     const [itemsPerPage, setItemsPerPage] = useState(20)
     const [search, setSearch] = useState("")
     const { totalProducts } = useLoaderData();
+    useTitle('All Toys')
 
 
     const totalPerPage = Math.ceil(totalProducts / itemsPerPage)

@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { AuthContext } from '../../Provider/AuthProvider';
 import ToyCard from './ToyCard';
 import Swal from 'sweetalert2';
+import useTitle from '../../Hooks/useTitle';
 
 const MyToys = () => {
     const { user } = useContext(AuthContext)
@@ -10,6 +11,7 @@ const MyToys = () => {
     const [update, setUpdate] = useState(false)
     const [search, setSearch] = useState("")
     const [sortOrder, setSortOrder] = useState("asc")
+    useTitle('My Toys')
 
 
     useEffect(() => {

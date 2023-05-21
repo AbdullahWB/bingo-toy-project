@@ -6,6 +6,7 @@ import Lottie from 'lottie-react'
 import { toast } from 'react-hot-toast';
 import { AuthContext } from '../../Provider/AuthProvider';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
+import useTitle from '../../Hooks/useTitle';
 
 const Login = () => {
     const { signIn, singInGoogle, singInGithub } = useContext(AuthContext)
@@ -14,6 +15,7 @@ const Login = () => {
     const location = useLocation()
     const from = location?.state?.from?.pathname || '/'
     // console.log("from login", from);
+    useTitle('Login')
 
 
 

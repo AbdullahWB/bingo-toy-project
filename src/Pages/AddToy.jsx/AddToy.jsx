@@ -1,10 +1,12 @@
 import React, { useContext } from 'react';
 import { useForm } from "react-hook-form";
 import { AuthContext } from '../../Provider/AuthProvider';
+import useTitle from '../../Hooks/useTitle';
 
 const AddToy = () => {
     const { user } = useContext(AuthContext)
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
+    useTitle('Add Toy');
     const onSubmit = data => {
         fetch("http://localhost:3000/addToy", {
             method: "POST",

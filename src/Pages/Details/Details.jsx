@@ -2,10 +2,12 @@ import React from 'react';
 import { FaRegStar, FaStar } from 'react-icons/fa';
 import Rating from 'react-rating';
 import { useLoaderData } from 'react-router-dom';
+import useTitle from '../../Hooks/useTitle';
 
 const Details = () => {
     const details = useLoaderData()
     const { _id, picture, product_details, seller_email, seller_name, available_quantity, sub_category, category, rating, price, name } = details || {};
+    useTitle('Details')
     return (
         <div className='mt-[50px] mb-[130px] max-w-7xl mx-auto '>
             <div className='grid mx-5 lg:grid-cols-2 gap-9 shadow-xl p-8 rounded-xl'>

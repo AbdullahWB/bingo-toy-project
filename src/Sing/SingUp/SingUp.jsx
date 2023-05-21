@@ -6,6 +6,7 @@ import Lottie from 'lottie-react'
 import { AuthContext } from '../../Provider/AuthProvider';
 import { toast } from 'react-hot-toast';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
+import useTitle from '../../Hooks/useTitle';
 
 const SingUp = () => {
     const { singUp, singInGoogle, singInGithub } = useContext(AuthContext)
@@ -13,6 +14,7 @@ const SingUp = () => {
     const navigate = useNavigate();
     const location = useLocation()
     const from = location?.state?.from?.pathname || '/'
+    useTitle('Sing Up')
 
 
     const handleSingData = event => {

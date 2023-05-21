@@ -6,8 +6,10 @@ import ForCollection from '../ForCollection/ForCollection';
 import Offer from '../Offer/Offer';
 import Testimonial from '../Testimonial/Testimonial';
 import Questions from '../Questions/Questions';
+import useTitle from '../../Hooks/useTitle';
 
 const Home = () => {
+    useTitle('Home');
     return (
         <div>
             <Banner></Banner>

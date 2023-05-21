@@ -2,9 +2,11 @@ import React from 'react';
 import errorPage from '../../assets/94019-404-animation.json'
 import { Link, useRouteError } from 'react-router-dom';
 import Lottie from 'lottie-react'
+import useTitle from '../../Hooks/useTitle';
 
 const Error = () => {
     const { error } = useRouteError()
+    useTitle('Error')
     return (
         <div className='flex flex-col justify-center items-center mt-20'>
             <div className='flex justify-center items-center w-[400px] lg:w-[700px]'>
