@@ -79,20 +79,20 @@ const Login = () => {
                         <div className='w-[150px]'>
                             <Lottie animationData={profile} loop={true} />
                         </div>
-                        <h2 className='text-3xl text-primary font-semibold my-5'>SingIn Your Profile</h2>
+                        <h2 className='text-3xl text-primary font-semibold my-5'>SignIn Your Profile</h2>
                     </div>
                     <form onSubmit={handleSingData} className='flex flex-col justify-center items-center gap-3'>
                         <div className="form-control w-full max-w-xs">
                             <label className="label">
                                 <span className="label-text">Your Email</span>
                             </label>
-                            <input type="email" name="email" placeholder="Email Hear" className="input input-bordered w-full max-w-xs" />
+                            <input type="email" name="email" placeholder="Email Here" className="input input-bordered w-full max-w-xs" />
                         </div>
                         <div className="relative form-control w-full max-w-xs">
                             <label className="label">
                                 <span className="label-text">Your Password</span>
                             </label>
-                            <input type={show ? "text" : "password"} name="password" placeholder="Password Hear" className="input input-bordered w-full max-w-xs" />
+                            <input type={show ? "text" : "password"} name="password" placeholder="Password Here" className="input input-bordered w-full max-w-xs" />
                             <span className='text-[20px] inline-block absolute right-[10px] top-[50px] cursor-pointer' onClick={() => setShow(!show)}>
                                 <span>
                                     {
@@ -103,7 +103,7 @@ const Login = () => {
                         </div>
                         
                         <div className='flex justify-center items-center flex-col'>
-                        <input className='btn btn-outline btn-primary mt-5 mb-5 text-white' type="submit" value="SingIn" />
+                        <input className='btn btn-outline btn-primary mt-5 mb-5 text-white' type="submit" value="SignIn" />
                             <div className='flex flex-col justify-center items-center'>
                                 <p className='mb-5'>or sign in with other accounts?</p>
                                 <div className='grid gap-8 grid-cols-2'>

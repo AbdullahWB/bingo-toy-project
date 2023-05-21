@@ -2,13 +2,14 @@ import React, { useContext } from 'react';
 import { useForm } from "react-hook-form";
 import { AuthContext } from '../../Provider/AuthProvider';
 import useTitle from '../../Hooks/useTitle';
+import { toast } from 'react-hot-toast';
 
 const AddToy = () => {
     const { user } = useContext(AuthContext)
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     useTitle('Add Toy');
     const onSubmit = data => {
-        fetch("http://localhost:3000/addToy", {
+        fetch("https://bingo-toy-server.vercel.app/addToy", {
             method: "POST",
             headers: {
                 'content-type': 'application/json'
@@ -17,7 +18,8 @@ const AddToy = () => {
         })
             .then(res => res.json())
             .then(result => {
-            console.log(result);
+                console.log(result);
+                toast.success('Your Products added successfully ✅')
             })
         console.log(data)
     };

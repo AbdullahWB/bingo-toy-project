@@ -5,7 +5,7 @@ const Tabs = () => {
     const [tabs, setTabs] = useState([])
     const [activeTab, setActiveTab] = useState("Science");
     useEffect(() => {
-        fetch(`http://localhost:3000/products/${activeTab}`)
+        fetch(`https://bingo-toy-server.vercel.app/products/${activeTab}`)
             .then(res => res.json())
             .then(data => setTabs(data))
     }, [activeTab])
@@ -17,6 +17,8 @@ const Tabs = () => {
     };
     return (
         <div className='max-w-7xl mx-auto' data-aos="slide-up" data-aos-easing="ease-in-out" data-aos-duration="2000">
+            <h1 className='text-6xl text-primary font-light text-center'>Items By Category</h1>
+            <p className='text-xl text-center my-8'>Bey Toy By Category</p>
             <div className='grid lg:grid-cols-4 w-full h-full gap-8 p-5 lg:px-0'>
                 <div onClick={() => handleClickTab("Science")} className='bg-[#6F5EFA] flex justify-between w-full h-full items-center rounded-lg p-5 cursor-pointer hover:scale-105 transition-all'>
                     <img className='w-auto h-[110px]' src="https://i.ibb.co/j6CKDLf/science-word-concept-23-2148533907-removebg-preview.png" alt="" />

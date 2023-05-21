@@ -41,12 +41,12 @@ const router = createBrowserRouter([
             {
                 path: '/allToys',
                 element: <AllToys></AllToys>,
-                loader: ()=> fetch('http://localhost:3000/totalProducts')
+                loader: ()=> fetch('https://bingo-toy-server.vercel.app/totalProducts')
             },
             {
                 path: '/details/:id',
                 element: <PrivetRoute><Details></Details></PrivetRoute>,
-                loader: ({params})=> fetch(`http://localhost:3000/products/details/${params.id}`)
+                loader: ({params})=> fetch(`https://bingo-toy-server.vercel.app/products/details/${params.id}`)
             },
             {
                 path: '/blog',

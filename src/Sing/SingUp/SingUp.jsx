@@ -81,20 +81,20 @@ const SingUp = () => {
                         <div className='w-[150px]'>
                             <Lottie animationData={profile} loop={true} />
                         </div>
-                        <h2 className='text-3xl text-primary font-semibold my-5'>SingUp Your Profile</h2>
+                        <h2 className='text-3xl text-primary font-semibold my-5'>SignUp Your Profile</h2>
                     </div>
                     <form onSubmit={handleSingData} className='flex flex-col justify-center items-center gap-3'>
                         <div className="form-control w-full max-w-xs">
                             <label className="label">
                                 <span className="label-text">Your Name</span>
                             </label>
-                            <input type="text" name="name" placeholder="Name Hear" className="input input-bordered w-full max-w-xs" />
+                            <input type="text" name="name" placeholder="Name Here" className="input input-bordered w-full max-w-xs" />
                         </div>
                         <div className="form-control w-full max-w-xs">
                             <label className="label">
                                 <span className="label-text">Your Email</span>
                             </label>
-                            <input type="email" name="email" placeholder="Email Hear" className="input input-bordered w-full max-w-xs" />
+                            <input type="email" name="email" placeholder="Email Here" className="input input-bordered w-full max-w-xs" />
                         </div>
                         <div className="relative form-control w-full max-w-xs">
                             <label className="label">
@@ -117,7 +117,7 @@ const SingUp = () => {
                         </div>
 
                         <div className='flex justify-center items-center flex-col'>
-                            <input className='btn btn-outline btn-primary mt-5 mb-5 text-white' type="submit" value="SingUp" />
+                            <input className='btn btn-outline btn-primary mt-5 mb-5 text-white' type="submit" value="SignUp" />
                             <div className='flex flex-col justify-center items-center'>
                                 <p className='mb-5'>or sign in with other accounts?</p>
                                 <div className='grid gap-8 grid-cols-2'>
