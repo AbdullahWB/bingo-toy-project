@@ -1,7 +1,23 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useContext } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import { AuthContext } from '../../Provider/AuthProvider';
 
 const Offer = () => {
+    const { user } = useContext(AuthContext)
+    const navigate = useNavigate()
+    const handleUser = () => {
+        if (!user) {
+            Swal.fire(
+                'Login First',
+                'You Have to Log in First To View Details',
+                'question'
+            )
+            navigate('/login');
+            return;
+        }
+    };
+
+
     return (
         <div className='grid lg:grid-cols-2 gap-10 max-w-7xl mx-auto lg:h-[350px] px-5 lg:px-0 mb-[130px]' data-aos="slide-down" data-aos-easing="ease-in-out" data-aos-duration="2000">
             <div className='relative bg-[#5CDEFF] rounded-lg p-10'>
@@ -9,7 +25,7 @@ const Offer = () => {
                 <div className='absolute inset-0 text-white p-10 flex flex-col justify-center items-end text-right'>
                     <h1 className='text-4xl font-bold capitalize'>construction <br /> equipment toy</h1>
                     <p className='my-5'>little boy wearing blue helmet sitting and <br /> playing with construction equipment toy on white</p>
-                    <Link className='btn btn-primary rounded-full w-32 text-white' to='/allToys'>Shop Now</Link>
+                    <Link className='btn btn-primary rounded-full w-32 text-white' onClick={handleUser} to='/allToys'>Shop Now</Link>
                 </div>
             </div>
             <div className='relative bg-[#B94633] rounded-lg p-10'>
@@ -17,7 +33,7 @@ const Offer = () => {
                 <div className='absolute inset-0 text-white p-10 flex flex-col justify-center items-end text-right'>
                     <h1 className='text-4xl font-bold capitalize'>science experiments</h1>
                     <p className='my-5'>A girl science experiments using some <br /> electronic particles</p>
-                    <Link className='btn btn-primary rounded-full w-32 text-white' to='/allToys'>Shop Now</Link>
+                    <Link className='btn btn-primary rounded-full w-32 text-white' onClick={handleUser} to='/allToys'>Shop Now</Link>
                 </div>
             </div>
         </div>

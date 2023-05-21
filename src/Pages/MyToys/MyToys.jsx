@@ -3,6 +3,7 @@ import { AuthContext } from '../../Provider/AuthProvider';
 import ToyCard from './ToyCard';
 import Swal from 'sweetalert2';
 import useTitle from '../../Hooks/useTitle';
+import { toast } from 'react-hot-toast';
 
 const MyToys = () => {
     const { user } = useContext(AuthContext)
@@ -78,6 +79,7 @@ const MyToys = () => {
             .then(res => res.json())
             .then(result => {
                 if (result.modifiedCount > 0) {
+                    toast.success('successfully Updated Data ✅')
                     setUpdate(!update)
                 }
             })

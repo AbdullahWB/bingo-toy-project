@@ -14,6 +14,7 @@ const Modal = ({ myToy, handleUpdateToyData }) => {
 
 
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
+    
     const onSubmit = data => {
         handleUpdateToyData(data)
         console.log(data)

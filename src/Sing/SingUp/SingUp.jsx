@@ -30,6 +30,7 @@ const SingUp = () => {
             .then(result => {
                 const createdUser = result.user;
                 console.log(createdUser);
+                toast.success('successfully Logged in ✅')
                 navigate(from, { replace: true })
             })
             .catch(error => {
@@ -44,6 +45,7 @@ const SingUp = () => {
             .then(result => {
                 const user = result.user;
                 console.log(user);
+                toast.success('successfully Logged in ✅')
                 navigate(from, { replace: true })
             })
             .catch(error => {
@@ -56,7 +58,8 @@ const SingUp = () => {
         singInGithub()
             .then(result => {
                 const user = result.user;
-                console.log(user);
+                console.log(user)
+                toast.success('successfully Logged in ✅');
                 navigate(from, { replace: true })
             })
             .catch(error => {

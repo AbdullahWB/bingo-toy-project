@@ -1,6 +1,6 @@
 [
   {
-    "name": "Math Kit",
+    "name": "TimesTableTrek",
     "price": 24.99,
     "rating": 4.5,
     "category": "Educational",
@@ -8,11 +8,11 @@
     "available_quantity": 10,
     "seller_name": "Mohammad Abdullah",
     "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Math Kit is designed to help children learn mathematical concepts through hands-on activities and games.",
-    "picture": "https://cdn.shopify.com/s/files/1/0729/3773/4417/articles/math-toys.jpg?v=1682516680&width=1500"
+    "product_details": "Take the journey of numbers and problem-solving to new heights with MathMaster, an innovative math toy designed to make learning mathematics fun and engaging for children. MathMaster combines interactive gameplay with essential math concepts, helping children build a strong foundation in arithmetic, geometry, and logical reasoning. Through a series of captivating puzzles, challenges, and activities, MathMaster stimulates critical thinking, improves problem-solving skills, and enhances numerical fluency. Whether it's solving equations, geometric patterns, or number sequences, MathMaster provides an immersive learning experience that inspires a love for mathematics. With its intuitive interface and adaptive learning system, MathMaster adapts to each child's skill level, ensuring a personalized learning journey that builds confidence and mastery. Let MathMaster be your child's guide to unlocking the wonders of mathematics!",
+    "picture": "https://img.freepik.com/free-vector/young-children-playing-with-abacus_1308-15595.jpg?w=1480&t=st=1684669542~exp=1684670142~hmac=1451b3e1aa1d9e3ae050131d9ef5b324a9d97e68e9ef9c4ab83d3ff9a6906ff5"
   },
   {
-    "name": "Language Kit",
+    "name": "StoryTellerBot",
     "price": 19.99,
     "rating": 4.2,
     "category": "Educational",
@@ -20,11 +20,11 @@
     "available_quantity": 5,
     "seller_name": "Mohammad Abdullah",
     "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Language Kit includes interactive games and exercises to enhance children's language skills and vocabulary.",
-    "picture": "https://ae01.alicdn.com/kf/sf818b0efb5bf48b28e7c96c614e81e8cj/kids-english-educational-voice-reading-machine-book-smart-point-reading-pen-children-study-papers-learning-toys.jpg_q90.jpg_.webp"
+    "product_details": "Explore the world of language with LanguageLand, an interactive and educational toy designed to help children develop their language skills. With engaging games, vocabulary-building exercises, and grammar practice, LanguageLand makes learning fun and exciting. Children can improve their listening and speaking skills, expand their vocabulary, and enhance their grammar understanding through interactive activities. With multilingual support and interactive storybooks, LanguageLand offers a versatile and educational experience for children of all backgrounds.",
+    "picture": "https://www.parents.com/thmb/Ngf2F8EvyUWq2Wjp9j1Ud5Nl3fM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/vtech-touch-and-learn-53fc65fadd8342e285c3584ece1a2d72.jpeg"
   },
   {
-    "name": "Engineering Kit",
+    "name": "BuildBot",
     "price": 39.99,
     "rating": 4.8,
     "category": "Educational",
@@ -32,11 +32,11 @@
     "available_quantity": 3,
     "seller_name": "Mohammad Abdullah",
     "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Engineering Kit introduces kids to the world of engineering through building and designing various structures and mechanisms.",
-    "picture": "https://cdn.mos.cms.futurecdn.net/poybd6yydrzpr7xkm28phe.jpg"
+    "product_details": "Ignite your child's creativity and curiosity with BuildBots, an exciting engineering toy that introduces young minds to the world of robotics and engineering. With BuildBots, children can design, build, and program their own robots using a variety of components and electronic modules. From assembling the mechanical structure to coding the robot's behavior, BuildBots offers hands-on learning experiences that promote problem-solving, critical thinking, and STEM skills. With endless possibilities for customization and innovation, children can unleash their imagination and create robots that move, light up, and interact with their environment. BuildBots not only provides hours of fun and excitement but also fosters a passion for engineering and technology, preparing children for the future.",
+    "picture": "https://ae01.alicdn.com/kf/H0c46083cc2bf44a8ae96c0740be7d1b87/4pcs-Kids-Engineering-Toys-Playset-Pull-Back-Cars-Road-Roller-Excavator.jpg"
   },
   {
-    "name": "Science Kit",
+    "name": "ScienceLab Jr.",
     "price": 29.99,
     "rating": 4.7,
     "category": "Educational",
@@ -44,11 +44,11 @@
     "available_quantity": 8,
     "seller_name": "Mohammad Abdullah",
     "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Science Kit offers exciting experiments and activities that allow children to explore and understand different scientific concepts.",
-    "picture": "https://m.media-amazon.com/images/i/81zhm7rsbcl._ac_sl1500_.jpg"
+    "product_details": " Ignite the curiosity of young minds with SciExplore, a fascinating science toy designed to inspire and educate children about the wonders of the natural world. With hands-on experiments, interactive models, and engaging activities, SciExplore makes learning science an exciting adventure. Children can delve into various scientific disciplines, from chemistry and physics to biology and astronomy, through captivating experiments and demonstrations. By exploring scientific concepts in a fun and interactive way, SciExplore encourages critical thinking, problem-solving skills, and a lifelong love for science.",
+    "picture": "https://m.media-amazon.com/images/I/81ooFv9f7kL._AC_SL1500_.jpg"
   },
   {
-    "name": "Math Kit",
+    "name": "FractionFun",
     "price": 24.99,
     "rating": 4.5,
     "category": "Educational",
@@ -56,11 +56,11 @@
     "available_quantity": 10,
     "seller_name": "Mohammad Abdullah",
     "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Math Kit is designed to help children learn mathematical concepts through hands-on activities and games.",
-    "picture": "https://cdn.shopify.com/s/files/1/0729/3773/4417/articles/math-toys.jpg?v=1682516680&width=1500"
+    "product_details": "Take the journey of numbers and problem-solving to new heights with MathMaster, an innovative math toy designed to make learning mathematics fun and engaging for children. MathMaster combines interactive gameplay with essential math concepts, helping children build a strong foundation in arithmetic, geometry, and logical reasoning. Through a series of captivating puzzles, challenges, and activities, MathMaster stimulates critical thinking, improves problem-solving skills, and enhances numerical fluency. Whether it's solving equations, geometric patterns, or number sequences, MathMaster provides an immersive learning experience that inspires a love for mathematics. With its intuitive interface and adaptive learning system, MathMaster adapts to each child's skill level, ensuring a personalized learning journey that builds confidence and mastery. Let MathMaster be your child's guide to unlocking the wonders of mathematics!",
+    "picture": "https://d3mw6k1m1fi1qr.cloudfront.net/g_w_hwOshkOQBWZ5T51MfCxMKgjrtjyd8z5Fhmyy39gDZzpKtG_600.jpg"
   },
   {
-    "name": "Language Kit",
+    "name": "PhonicsFriends",
     "price": 19.99,
     "rating": 4.2,
     "category": "Educational",
@@ -68,11 +68,11 @@
     "available_quantity": 5,
     "seller_name": "Mohammad Abdullah",
     "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Language Kit includes interactive games and exercises to enhance children's language skills and vocabulary.",
-    "picture": "https://ae01.alicdn.com/kf/sf818b0efb5bf48b28e7c96c614e81e8cj/kids-english-educational-voice-reading-machine-book-smart-point-reading-pen-children-study-papers-learning-toys.jpg_q90.jpg_.webp"
+    "product_details": "Explore the world of language with LanguageLand, an interactive and educational toy designed to help children develop their language skills. With engaging games, vocabulary-building exercises, and grammar practice, LanguageLand makes learning fun and exciting. Children can improve their listening and speaking skills, expand their vocabulary, and enhance their grammar understanding through interactive activities. With multilingual support and interactive storybooks, LanguageLand offers a versatile and educational experience for children of all backgrounds.",
+    "picture": "https://d3mw6k1m1fi1qr.cloudfront.net/g_w_hwOshkOQBWZ5T51MfCxMKgjrtjyd8z5Fhmyy39gDZzpKtG_600.jpg"
   },
   {
-    "name": "Engineering Kit",
+    "name": "CircuitCraze",
     "price": 39.99,
     "rating": 4.8,
     "category": "Educational",
@@ -80,11 +80,11 @@
     "available_quantity": 3,
     "seller_name": "Mohammad Abdullah",
     "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Engineering Kit introduces kids to the world of engineering through building and designing various structures and mechanisms.",
-    "picture": "https://cdn.mos.cms.futurecdn.net/poybd6yydrzpr7xkm28phe.jpg"
+    "product_details": "Ignite your child's creativity and curiosity with BuildBots, an exciting engineering toy that introduces young minds to the world of robotics and engineering. With BuildBots, children can design, build, and program their own robots using a variety of components and electronic modules. From assembling the mechanical structure to coding the robot's behavior, BuildBots offers hands-on learning experiences that promote problem-solving, critical thinking, and STEM skills. With endless possibilities for customization and innovation, children can unleash their imagination and create robots that move, light up, and interact with their environment. BuildBots not only provides hours of fun and excitement but also fosters a passion for engineering and technology, preparing children for the future.",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXr9TDh1l3CfC6A13JTghm1KLfD9ciRvToPA&usqp=CAU"
   },
   {
-    "name": "Science Kit",
+    "name": "ExplorerScope",
     "price": 29.99,
     "rating": 4.7,
     "category": "Educational",
@@ -92,8 +92,56 @@
     "available_quantity": 8,
     "seller_name": "Mohammad Abdullah",
     "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Science Kit offers exciting experiments and activities that allow children to explore and understand different scientific concepts.",
-    "picture": "https://m.media-amazon.com/images/i/81zhm7rsbcl._ac_sl1500_.jpg"
+    "product_details": " Ignite the curiosity of young minds with SciExplore, a fascinating science toy designed to inspire and educate children about the wonders of the natural world. With hands-on experiments, interactive models, and engaging activities, SciExplore makes learning science an exciting adventure. Children can delve into various scientific disciplines, from chemistry and physics to biology and astronomy, through captivating experiments and demonstrations. By exploring scientific concepts in a fun and interactive way, SciExplore encourages critical thinking, problem-solving skills, and a lifelong love for science.",
+    "picture": "https://www.verywellfamily.com/thmb/WPCzrIpn6FiteEGFT2XioFARja4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/best-science-kits-for-kids-5225137-a3e391be84354117ac3ffd0dbf68c699.png"
+  },
+  {
+    "name": "GeometricGems",
+    "price": 24.99,
+    "rating": 4.5,
+    "category": "Educational",
+    "sub_category": "Math",
+    "available_quantity": 10,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "Take the journey of numbers and problem-solving to new heights with MathMaster, an innovative math toy designed to make learning mathematics fun and engaging for children. MathMaster combines interactive gameplay with essential math concepts, helping children build a strong foundation in arithmetic, geometry, and logical reasoning. Through a series of captivating puzzles, challenges, and activities, MathMaster stimulates critical thinking, improves problem-solving skills, and enhances numerical fluency. Whether it's solving equations, geometric patterns, or number sequences, MathMaster provides an immersive learning experience that inspires a love for mathematics. With its intuitive interface and adaptive learning system, MathMaster adapts to each child's skill level, ensuring a personalized learning journey that builds confidence and mastery. Let MathMaster be your child's guide to unlocking the wonders of mathematics!",
+    "picture": "https://img.freepik.com/free-photo/set-kid-toys-white-shelf_53876-144954.jpg?w=1380&t=st=1684669638~exp=1684670238~hmac=3a58610021975a88000ec4fddf78aeb3bf07bba71b4776922b03136955cfc8b2"
+  },
+  {
+    "name": "AlphabetAdventure",
+    "price": 19.99,
+    "rating": 4.2,
+    "category": "Educational",
+    "sub_category": "Language",
+    "available_quantity": 5,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "Explore the world of language with LanguageLand, an interactive and educational toy designed to help children develop their language skills. With engaging games, vocabulary-building exercises, and grammar practice, LanguageLand makes learning fun and exciting. Children can improve their listening and speaking skills, expand their vocabulary, and enhance their grammar understanding through interactive activities. With multilingual support and interactive storybooks, LanguageLand offers a versatile and educational experience for children of all backgrounds.",
+    "picture": "https://m.media-amazon.com/images/I/71TnPFA4zvL._AC_SL1500_.jpg"
+  },
+  {
+    "name": "RoboRace",
+    "price": 39.99,
+    "rating": 4.8,
+    "category": "Educational",
+    "sub_category": "Engineering",
+    "available_quantity": 3,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": "Ignite your child's creativity and curiosity with BuildBots, an exciting engineering toy that introduces young minds to the world of robotics and engineering. With BuildBots, children can design, build, and program their own robots using a variety of components and electronic modules. From assembling the mechanical structure to coding the robot's behavior, BuildBots offers hands-on learning experiences that promote problem-solving, critical thinking, and STEM skills. With endless possibilities for customization and innovation, children can unleash their imagination and create robots that move, light up, and interact with their environment. BuildBots not only provides hours of fun and excitement but also fosters a passion for engineering and technology, preparing children for the future.",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlyGyzBD3xtYKFM13Zla1NcaY2QjSnHhlgq9Ow-NetsMCP5qKwFxegKwvsNCzRP1_nQlc&usqp=CAU"
+  },
+  {
+    "name": "ChemiKids",
+    "price": 29.99,
+    "rating": 4.7,
+    "category": "Educational",
+    "sub_category": "Science",
+    "available_quantity": 8,
+    "seller_name": "Mohammad Abdullah",
+    "seller_email": "abdullah917828@gmail.com",
+    "product_details": " Ignite the curiosity of young minds with SciExplore, a fascinating science toy designed to inspire and educate children about the wonders of the natural world. With hands-on experiments, interactive models, and engaging activities, SciExplore makes learning science an exciting adventure. Children can delve into various scientific disciplines, from chemistry and physics to biology and astronomy, through captivating experiments and demonstrations. By exploring scientific concepts in a fun and interactive way, SciExplore encourages critical thinking, problem-solving skills, and a lifelong love for science.",
+    "picture": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1637170105-botley-1637170098.jpg?crop=1xw:1xh;center,top&resize=980:*"
   },
   {
     "name": "Advanced Math Kit",
@@ -104,23 +152,11 @@
     "available_quantity": 6,
     "seller_name": "Mohammad Abdullah",
     "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Advanced Math Kit is designed for older children to dive deeper into complex mathematical concepts and problem-solving skills.",
-    "picture": "https://example.com/advanced_math_kit.jpg"
+    "product_details": "Take the journey of numbers and problem-solving to new heights with MathMaster, an innovative math toy designed to make learning mathematics fun and engaging for children. MathMaster combines interactive gameplay with essential math concepts, helping children build a strong foundation in arithmetic, geometry, and logical reasoning. Through a series of captivating puzzles, challenges, and activities, MathMaster stimulates critical thinking, improves problem-solving skills, and enhances numerical fluency. Whether it's solving equations, geometric patterns, or number sequences, MathMaster provides an immersive learning experience that inspires a love for mathematics. With its intuitive interface and adaptive learning system, MathMaster adapts to each child's skill level, ensuring a personalized learning journey that builds confidence and mastery. Let MathMaster be your child's guide to unlocking the wonders of mathematics!",
+    "picture": "https://images.pexels.com/photos/12585860/pexels-photo-12585860.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   },
   {
-    "name": "Spelling and Grammar Kit",
-    "price": 17.99,
-    "rating": 4.1,
-    "category": "Educational",
-    "sub_category": "Language",
-    "available_quantity": 4,
-    "seller_name": "Mohammad Abdullah",
-    "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Spelling and Grammar Kit helps children improve their spelling and grammar skills through fun and engaging exercises.",
-    "picture": "https://example.com/spelling_grammar_kit.jpg"
-  },
-  {
-    "name": "Math Kit",
+    "name": "MathWizard",
     "price": 24.99,
     "rating": 4.5,
     "category": "Educational",
@@ -128,11 +164,11 @@
     "available_quantity": 10,
     "seller_name": "Mohammad Abdullah",
     "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Math Kit is designed to help children learn mathematical concepts through hands-on activities and games.",
-    "picture": "https://cdn.shopify.com/s/files/1/0729/3773/4417/articles/math-toys.jpg?v=1682516680&width=1500"
+    "product_details": "Take the journey of numbers and problem-solving to new heights with MathMaster, an innovative math toy designed to make learning mathematics fun and engaging for children. MathMaster combines interactive gameplay with essential math concepts, helping children build a strong foundation in arithmetic, geometry, and logical reasoning. Through a series of captivating puzzles, challenges, and activities, MathMaster stimulates critical thinking, improves problem-solving skills, and enhances numerical fluency. Whether it's solving equations, geometric patterns, or number sequences, MathMaster provides an immersive learning experience that inspires a love for mathematics. With its intuitive interface and adaptive learning system, MathMaster adapts to each child's skill level, ensuring a personalized learning journey that builds confidence and mastery. Let MathMaster be your child's guide to unlocking the wonders of mathematics!",
+    "picture": "https://img.freepik.com/free-vector/number-0-9-with-math-symbols_1308-101123.jpg?w=1380&t=st=1684669794~exp=1684670394~hmac=9aefe3b850dc868634e9d255d7aee2979ae85d62b42b383045993d48f217fac2"
   },
   {
-    "name": "Language Kit",
+    "name": "LinguaPals",
     "price": 19.99,
     "rating": 4.2,
     "category": "Educational",
@@ -140,11 +176,11 @@
     "available_quantity": 5,
     "seller_name": "Mohammad Abdullah",
     "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Language Kit includes interactive games and exercises to enhance children's language skills and vocabulary.",
-    "picture": "https://ae01.alicdn.com/kf/sf818b0efb5bf48b28e7c96c614e81e8cj/kids-english-educational-voice-reading-machine-book-smart-point-reading-pen-children-study-papers-learning-toys.jpg_q90.jpg_.webp"
+    "product_details": "Explore the world of language with LanguageLand, an interactive and educational toy designed to help children develop their language skills. With engaging games, vocabulary-building exercises, and grammar practice, LanguageLand makes learning fun and exciting. Children can improve their listening and speaking skills, expand their vocabulary, and enhance their grammar understanding through interactive activities. With multilingual support and interactive storybooks, LanguageLand offers a versatile and educational experience for children of all backgrounds.",
+    "picture": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1667857037-41tIuMGds1L._SL500_.jpg?crop=1xw:1.00xh;center,top&resize=980:*"
   },
   {
-    "name": "Engineering Kit",
+    "name": "GearGenius",
     "price": 39.99,
     "rating": 4.8,
     "category": "Educational",
@@ -152,11 +188,11 @@
     "available_quantity": 3,
     "seller_name": "Mohammad Abdullah",
     "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Engineering Kit introduces kids to the world of engineering through building and designing various structures and mechanisms.",
-    "picture": "https://cdn.mos.cms.futurecdn.net/poybd6yydrzpr7xkm28phe.jpg"
+    "product_details": "Ignite your child's creativity and curiosity with BuildBots, an exciting engineering toy that introduces young minds to the world of robotics and engineering. With BuildBots, children can design, build, and program their own robots using a variety of components and electronic modules. From assembling the mechanical structure to coding the robot's behavior, BuildBots offers hands-on learning experiences that promote problem-solving, critical thinking, and STEM skills. With endless possibilities for customization and innovation, children can unleash their imagination and create robots that move, light up, and interact with their environment. BuildBots not only provides hours of fun and excitement but also fosters a passion for engineering and technology, preparing children for the future.",
+    "picture": "https://rukminim1.flixcart.com/image/416/416/kf1fo280/block-construction/f/d/p/kids-educational-engineering-toys-system-stem-mechanical-toys-original-imafvh8gayys3tgn.jpeg?q=70"
   },
   {
-    "name": "Science Kit",
+    "name": "RoboScience",
     "price": 29.99,
     "rating": 4.7,
     "category": "Educational",
@@ -164,23 +200,11 @@
     "available_quantity": 8,
     "seller_name": "Mohammad Abdullah",
     "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Science Kit offers exciting experiments and activities that allow children to explore and understand different scientific concepts.",
-    "picture": "https://m.media-amazon.com/images/i/81zhm7rsbcl._ac_sl1500_.jpg"
+    "product_details": " Ignite the curiosity of young minds with SciExplore, a fascinating science toy designed to inspire and educate children about the wonders of the natural world. With hands-on experiments, interactive models, and engaging activities, SciExplore makes learning science an exciting adventure. Children can delve into various scientific disciplines, from chemistry and physics to biology and astronomy, through captivating experiments and demonstrations. By exploring scientific concepts in a fun and interactive way, SciExplore encourages critical thinking, problem-solving skills, and a lifelong love for science.",
+    "picture": "https://s.alicdn.com/@sc04/kf/H2bc443e0bdcb406799a488037f75a14ea.jpg"
   },
   {
-    "name": "Advanced Math Kit",
-    "price": 34.99,
-    "rating": 4.6,
-    "category": "Educational",
-    "sub_category": "Math",
-    "available_quantity": 6,
-    "seller_name": "Mohammad Abdullah",
-    "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Advanced Math Kit is designed for older children to dive deeper into complex mathematical concepts and problem-solving skills.",
-    "picture": "https://example.com/advanced_math_kit.jpg"
-  },
-  {
-    "name": "Spelling and Grammar Kit",
+    "name": "LanguageLearners",
     "price": 17.99,
     "rating": 4.1,
     "category": "Educational",
@@ -188,11 +212,11 @@
     "available_quantity": 4,
     "seller_name": "Mohammad Abdullah",
     "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Spelling and Grammar Kit helps children improve their spelling and grammar skills through fun and engaging exercises.",
-    "picture": "https://example.com/spelling_grammar_kit.jpg"
+    "product_details": "Explore the world of language with LanguageLand, an interactive and educational toy designed to help children develop their language skills. With engaging games, vocabulary-building exercises, and grammar practice, LanguageLand makes learning fun and exciting. Children can improve their listening and speaking skills, expand their vocabulary, and enhance their grammar understanding through interactive activities. With multilingual support and interactive storybooks, LanguageLand offers a versatile and educational experience for children of all backgrounds.",
+    "picture": "https://5.imimg.com/data5/SELLER/Default/2023/2/SI/BI/VW/157562239/toys-encourage-kids-recognize-letters-numbers-3256226-hmf-v1-5ece9b3064524d17a34bb121ef79e650-500x500.jpg"
   },
   {
-    "name": "Math Kit",
+    "name": "CountingCrew",
     "price": 24.99,
     "rating": 4.5,
     "category": "Educational",
@@ -200,11 +224,11 @@
     "available_quantity": 10,
     "seller_name": "Mohammad Abdullah",
     "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Math Kit is designed to help children learn mathematical concepts through hands-on activities and games.",
-    "picture": "https://cdn.shopify.com/s/files/1/0729/3773/4417/articles/math-toys.jpg?v=1682516680&width=1500"
+    "product_details": "Take the journey of numbers and problem-solving to new heights with MathMaster, an innovative math toy designed to make learning mathematics fun and engaging for children. MathMaster combines interactive gameplay with essential math concepts, helping children build a strong foundation in arithmetic, geometry, and logical reasoning. Through a series of captivating puzzles, challenges, and activities, MathMaster stimulates critical thinking, improves problem-solving skills, and enhances numerical fluency. Whether it's solving equations, geometric patterns, or number sequences, MathMaster provides an immersive learning experience that inspires a love for mathematics. With its intuitive interface and adaptive learning system, MathMaster adapts to each child's skill level, ensuring a personalized learning journey that builds confidence and mastery. Let MathMaster be your child's guide to unlocking the wonders of mathematics!",
+    "picture": "https://static-01.daraz.com.bd/p/1176ddfcfff4126613c5cf2a01df7cc3.png"
   },
   {
-    "name": "Language Kit",
+    "name": "TalkieTiles",
     "price": 19.99,
     "rating": 4.2,
     "category": "Educational",
@@ -212,11 +236,11 @@
     "available_quantity": 5,
     "seller_name": "Mohammad Abdullah",
     "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Language Kit includes interactive games and exercises to enhance children's language skills and vocabulary.",
-    "picture": "https://ae01.alicdn.com/kf/sf818b0efb5bf48b28e7c96c614e81e8cj/kids-english-educational-voice-reading-machine-book-smart-point-reading-pen-children-study-papers-learning-toys.jpg_q90.jpg_.webp"
+    "product_details": "Explore the world of language with LanguageLand, an interactive and educational toy designed to help children develop their language skills. With engaging games, vocabulary-building exercises, and grammar practice, LanguageLand makes learning fun and exciting. Children can improve their listening and speaking skills, expand their vocabulary, and enhance their grammar understanding through interactive activities. With multilingual support and interactive storybooks, LanguageLand offers a versatile and educational experience for children of all backgrounds.",
+    "picture": "https://static-01.daraz.com.bd/p/cb6b3d6b0f8abafd50b695a9505e6638.jpg_720x720.jpg_.webp"
   },
   {
-    "name": "Engineering Kit",
+    "name": "Build-a-Bridge",
     "price": 39.99,
     "rating": 4.8,
     "category": "Educational",
@@ -224,11 +248,11 @@
     "available_quantity": 3,
     "seller_name": "Mohammad Abdullah",
     "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Engineering Kit introduces kids to the world of engineering through building and designing various structures and mechanisms.",
-    "picture": "https://cdn.mos.cms.futurecdn.net/poybd6yydrzpr7xkm28phe.jpg"
+    "product_details": "Ignite your child's creativity and curiosity with BuildBots, an exciting engineering toy that introduces young minds to the world of robotics and engineering. With BuildBots, children can design, build, and program their own robots using a variety of components and electronic modules. From assembling the mechanical structure to coding the robot's behavior, BuildBots offers hands-on learning experiences that promote problem-solving, critical thinking, and STEM skills. With endless possibilities for customization and innovation, children can unleash their imagination and create robots that move, light up, and interact with their environment. BuildBots not only provides hours of fun and excitement but also fosters a passion for engineering and technology, preparing children for the future.",
+    "picture": "https://cdn.shopify.com/s/files/1/0494/9134/5563/products/KidsFirstAutomobileEngineerbyThamesandKosmos13_1200x.jpg?v=1612385662"
   },
   {
-    "name": "Science Kit",
+    "name": "MicroBeast",
     "price": 29.99,
     "rating": 4.7,
     "category": "Educational",
@@ -236,23 +260,11 @@
     "available_quantity": 8,
     "seller_name": "Mohammad Abdullah",
     "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Science Kit offers exciting experiments and activities that allow children to explore and understand different scientific concepts.",
-    "picture": "https://m.media-amazon.com/images/i/81zhm7rsbcl._ac_sl1500_.jpg"
+    "product_details": " Ignite the curiosity of young minds with SciExplore, a fascinating science toy designed to inspire and educate children about the wonders of the natural world. With hands-on experiments, interactive models, and engaging activities, SciExplore makes learning science an exciting adventure. Children can delve into various scientific disciplines, from chemistry and physics to biology and astronomy, through captivating experiments and demonstrations. By exploring scientific concepts in a fun and interactive way, SciExplore encourages critical thinking, problem-solving skills, and a lifelong love for science.",
+    "picture": "https://cdn.shopify.com/s/files/1/2510/1136/products/81LR70-HbwL_1024x1024@2x.jpg?v=1662408356"
   },
   {
-    "name": "Advanced Math Kit",
-    "price": 34.99,
-    "rating": 4.6,
-    "category": "Educational",
-    "sub_category": "Math",
-    "available_quantity": 6,
-    "seller_name": "Mohammad Abdullah",
-    "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Advanced Math Kit is designed for older children to dive deeper into complex mathematical concepts and problem-solving skills.",
-    "picture": "https://example.com/advanced_math_kit.jpg"
-  },
-  {
-    "name": "Spelling and Grammar Kit",
+    "name": "WordPlayBlocks",
     "price": 17.99,
     "rating": 4.1,
     "category": "Educational",
@@ -260,11 +272,11 @@
     "available_quantity": 4,
     "seller_name": "Mohammad Abdullah",
     "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Spelling and Grammar Kit helps children improve their spelling and grammar skills through fun and engaging exercises.",
-    "picture": "https://example.com/spelling_grammar_kit.jpg"
+    "product_details": "Explore the world of language with LanguageLand, an interactive and educational toy designed to help children develop their language skills. With engaging games, vocabulary-building exercises, and grammar practice, LanguageLand makes learning fun and exciting. Children can improve their listening and speaking skills, expand their vocabulary, and enhance their grammar understanding through interactive activities. With multilingual support and interactive storybooks, LanguageLand offers a versatile and educational experience for children of all backgrounds.",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxonuTY9frVUiSsx9otlxqnO59Mr3U7-jMbg&usqp=CAU"
   },
   {
-    "name": "Math Kit",
+    "name": "ShapeShifters",
     "price": 24.99,
     "rating": 4.5,
     "category": "Educational",
@@ -272,23 +284,11 @@
     "available_quantity": 10,
     "seller_name": "Mohammad Abdullah",
     "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Math Kit is designed to help children learn mathematical concepts through hands-on activities and games.",
-    "picture": "https://cdn.shopify.com/s/files/1/0729/3773/4417/articles/math-toys.jpg?v=1682516680&width=1500"
+    "product_details": "Take the journey of numbers and problem-solving to new heights with MathMaster, an innovative math toy designed to make learning mathematics fun and engaging for children. MathMaster combines interactive gameplay with essential math concepts, helping children build a strong foundation in arithmetic, geometry, and logical reasoning. Through a series of captivating puzzles, challenges, and activities, MathMaster stimulates critical thinking, improves problem-solving skills, and enhances numerical fluency. Whether it's solving equations, geometric patterns, or number sequences, MathMaster provides an immersive learning experience that inspires a love for mathematics. With its intuitive interface and adaptive learning system, MathMaster adapts to each child's skill level, ensuring a personalized learning journey that builds confidence and mastery. Let MathMaster be your child's guide to unlocking the wonders of mathematics!",
+    "picture": "https://www.mother.ly/wp-content/uploads/legacy-images/math-toys-for-preschoolers-0.jpg"
   },
   {
-    "name": "Language Kit",
-    "price": 19.99,
-    "rating": 4.2,
-    "category": "Educational",
-    "sub_category": "Language",
-    "available_quantity": 5,
-    "seller_name": "Mohammad Abdullah",
-    "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Language Kit includes interactive games and exercises to enhance children's language skills and vocabulary.",
-    "picture": "https://ae01.alicdn.com/kf/sf818b0efb5bf48b28e7c96c614e81e8cj/kids-english-educational-voice-reading-machine-book-smart-point-reading-pen-children-study-papers-learning-toys.jpg_q90.jpg_.webp"
-  },
-  {
-    "name": "Engineering Kit",
+    "name": "CodeCraft",
     "price": 39.99,
     "rating": 4.8,
     "category": "Educational",
@@ -296,11 +296,11 @@
     "available_quantity": 3,
     "seller_name": "Mohammad Abdullah",
     "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Engineering Kit introduces kids to the world of engineering through building and designing various structures and mechanisms.",
-    "picture": "https://cdn.mos.cms.futurecdn.net/poybd6yydrzpr7xkm28phe.jpg"
+    "product_details": "Ignite your child's creativity and curiosity with BuildBots, an exciting engineering toy that introduces young minds to the world of robotics and engineering. With BuildBots, children can design, build, and program their own robots using a variety of components and electronic modules. From assembling the mechanical structure to coding the robot's behavior, BuildBots offers hands-on learning experiences that promote problem-solving, critical thinking, and STEM skills. With endless possibilities for customization and innovation, children can unleash their imagination and create robots that move, light up, and interact with their environment. BuildBots not only provides hours of fun and excitement but also fosters a passion for engineering and technology, preparing children for the future.",
+    "picture": "https://cdn.surfnetkids.com/resources/wp-content/uploads/2016/02/engineering-for-kids.jpg"
   },
   {
-    "name": "Science Kit",
+    "name": "EcoExplorer",
     "price": 29.99,
     "rating": 4.7,
     "category": "Educational",
@@ -308,35 +308,11 @@
     "available_quantity": 8,
     "seller_name": "Mohammad Abdullah",
     "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Science Kit offers exciting experiments and activities that allow children to explore and understand different scientific concepts.",
-    "picture": "https://m.media-amazon.com/images/i/81zhm7rsbcl._ac_sl1500_.jpg"
+    "product_details": " Ignite the curiosity of young minds with SciExplore, a fascinating science toy designed to inspire and educate children about the wonders of the natural world. With hands-on experiments, interactive models, and engaging activities, SciExplore makes learning science an exciting adventure. Children can delve into various scientific disciplines, from chemistry and physics to biology and astronomy, through captivating experiments and demonstrations. By exploring scientific concepts in a fun and interactive way, SciExplore encourages critical thinking, problem-solving skills, and a lifelong love for science.",
+    "picture": "https://www.parents.com/thmb/Z21o4fg1mCwoHD66RlFHTHljouw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/old-nobby-organic-chemistry-model-kit-a039d05d939444638defdf55cc5117b9.jpg"
   },
   {
-    "name": "Advanced Math Kit",
-    "price": 34.99,
-    "rating": 4.6,
-    "category": "Educational",
-    "sub_category": "Math",
-    "available_quantity": 6,
-    "seller_name": "Mohammad Abdullah",
-    "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Advanced Math Kit is designed for older children to dive deeper into complex mathematical concepts and problem-solving skills.",
-    "picture": "https://example.com/advanced_math_kit.jpg"
-  },
-  {
-    "name": "Spelling and Grammar Kit",
-    "price": 17.99,
-    "rating": 4.1,
-    "category": "Educational",
-    "sub_category": "Language",
-    "available_quantity": 4,
-    "seller_name": "Mohammad Abdullah",
-    "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Spelling and Grammar Kit helps children improve their spelling and grammar skills through fun and engaging exercises.",
-    "picture": "https://example.com/spelling_grammar_kit.jpg"
-  },
-  {
-    "name": "Math Kit",
+    "name": "NumberNinja",
     "price": 24.99,
     "rating": 4.5,
     "category": "Educational",
@@ -344,23 +320,11 @@
     "available_quantity": 10,
     "seller_name": "Mohammad Abdullah",
     "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Math Kit is designed to help children learn mathematical concepts through hands-on activities and games.",
-    "picture": "https://cdn.shopify.com/s/files/1/0729/3773/4417/articles/math-toys.jpg?v=1682516680&width=1500"
+    "product_details": "Take the journey of numbers and problem-solving to new heights with MathMaster, an innovative math toy designed to make learning mathematics fun and engaging for children. MathMaster combines interactive gameplay with essential math concepts, helping children build a strong foundation in arithmetic, geometry, and logical reasoning. Through a series of captivating puzzles, challenges, and activities, MathMaster stimulates critical thinking, improves problem-solving skills, and enhances numerical fluency. Whether it's solving equations, geometric patterns, or number sequences, MathMaster provides an immersive learning experience that inspires a love for mathematics. With its intuitive interface and adaptive learning system, MathMaster adapts to each child's skill level, ensuring a personalized learning journey that builds confidence and mastery. Let MathMaster be your child's guide to unlocking the wonders of mathematics!",
+    "picture": "https://www.mother.ly/wp-content/uploads/legacy-images/math-toys-for-preschoolers-4.jpg"
   },
   {
-    "name": "Language Kit",
-    "price": 19.99,
-    "rating": 4.2,
-    "category": "Educational",
-    "sub_category": "Language",
-    "available_quantity": 5,
-    "seller_name": "Mohammad Abdullah",
-    "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Language Kit includes interactive games and exercises to enhance children's language skills and vocabulary.",
-    "picture": "https://ae01.alicdn.com/kf/sf818b0efb5bf48b28e7c96c614e81e8cj/kids-english-educational-voice-reading-machine-book-smart-point-reading-pen-children-study-papers-learning-toys.jpg_q90.jpg_.webp"
-  },
-  {
-    "name": "Engineering Kit",
+    "name": "PowerPuzzle",
     "price": 39.99,
     "rating": 4.8,
     "category": "Educational",
@@ -368,11 +332,11 @@
     "available_quantity": 3,
     "seller_name": "Mohammad Abdullah",
     "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Engineering Kit introduces kids to the world of engineering through building and designing various structures and mechanisms.",
-    "picture": "https://cdn.mos.cms.futurecdn.net/poybd6yydrzpr7xkm28phe.jpg"
+    "product_details": "Ignite your child's creativity and curiosity with BuildBots, an exciting engineering toy that introduces young minds to the world of robotics and engineering. With BuildBots, children can design, build, and program their own robots using a variety of components and electronic modules. From assembling the mechanical structure to coding the robot's behavior, BuildBots offers hands-on learning experiences that promote problem-solving, critical thinking, and STEM skills. With endless possibilities for customization and innovation, children can unleash their imagination and create robots that move, light up, and interact with their environment. BuildBots not only provides hours of fun and excitement but also fosters a passion for engineering and technology, preparing children for the future.",
+    "picture": "https://m.media-amazon.com/images/I/81txbXMFWQL._AC_SL1500_.jpg"
   },
   {
-    "name": "Science Kit",
+    "name": "SpaceAdventure",
     "price": 29.99,
     "rating": 4.7,
     "category": "Educational",
@@ -380,35 +344,11 @@
     "available_quantity": 8,
     "seller_name": "Mohammad Abdullah",
     "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Science Kit offers exciting experiments and activities that allow children to explore and understand different scientific concepts.",
-    "picture": "https://m.media-amazon.com/images/i/81zhm7rsbcl._ac_sl1500_.jpg"
+    "product_details": " Ignite the curiosity of young minds with SciExplore, a fascinating science toy designed to inspire and educate children about the wonders of the natural world. With hands-on experiments, interactive models, and engaging activities, SciExplore makes learning science an exciting adventure. Children can delve into various scientific disciplines, from chemistry and physics to biology and astronomy, through captivating experiments and demonstrations. By exploring scientific concepts in a fun and interactive way, SciExplore encourages critical thinking, problem-solving skills, and a lifelong love for science.",
+    "picture": "https://m.media-amazon.com/images/I/71SjgWyXZKL._AC_SL1200_.jpg"
   },
   {
-    "name": "Advanced Math Kit",
-    "price": 34.99,
-    "rating": 4.6,
-    "category": "Educational",
-    "sub_category": "Math",
-    "available_quantity": 6,
-    "seller_name": "Mohammad Abdullah",
-    "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Advanced Math Kit is designed for older children to dive deeper into complex mathematical concepts and problem-solving skills.",
-    "picture": "https://example.com/advanced_math_kit.jpg"
-  },
-  {
-    "name": "Spelling and Grammar Kit",
-    "price": 17.99,
-    "rating": 4.1,
-    "category": "Educational",
-    "sub_category": "Language",
-    "available_quantity": 4,
-    "seller_name": "Mohammad Abdullah",
-    "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Spelling and Grammar Kit helps children improve their spelling and grammar skills through fun and engaging exercises.",
-    "picture": "https://example.com/spelling_grammar_kit.jpg"
-  },
-  {
-    "name": "Math Kit",
+    "name": "MathMania",
     "price": 24.99,
     "rating": 4.5,
     "category": "Educational",
@@ -416,23 +356,11 @@
     "available_quantity": 10,
     "seller_name": "Mohammad Abdullah",
     "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Math Kit is designed to help children learn mathematical concepts through hands-on activities and games.",
-    "picture": "https://cdn.shopify.com/s/files/1/0729/3773/4417/articles/math-toys.jpg?v=1682516680&width=1500"
+    "product_details": "Take the journey of numbers and problem-solving to new heights with MathMaster, an innovative math toy designed to make learning mathematics fun and engaging for children. MathMaster combines interactive gameplay with essential math concepts, helping children build a strong foundation in arithmetic, geometry, and logical reasoning. Through a series of captivating puzzles, challenges, and activities, MathMaster stimulates critical thinking, improves problem-solving skills, and enhances numerical fluency. Whether it's solving equations, geometric patterns, or number sequences, MathMaster provides an immersive learning experience that inspires a love for mathematics. With its intuitive interface and adaptive learning system, MathMaster adapts to each child's skill level, ensuring a personalized learning journey that builds confidence and mastery. Let MathMaster be your child's guide to unlocking the wonders of mathematics!",
+    "picture": "https://cdn.amightygirl.com/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/m/u/muffin_match.jpg"
   },
   {
-    "name": "Language Kit",
-    "price": 19.99,
-    "rating": 4.2,
-    "category": "Educational",
-    "sub_category": "Language",
-    "available_quantity": 5,
-    "seller_name": "Mohammad Abdullah",
-    "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Language Kit includes interactive games and exercises to enhance children's language skills and vocabulary.",
-    "picture": "https://ae01.alicdn.com/kf/sf818b0efb5bf48b28e7c96c614e81e8cj/kids-english-educational-voice-reading-machine-book-smart-point-reading-pen-children-study-papers-learning-toys.jpg_q90.jpg_.webp"
-  },
-  {
-    "name": "Engineering Kit",
+    "name": "Inventor's Lab",
     "price": 39.99,
     "rating": 4.8,
     "category": "Educational",
@@ -440,11 +368,11 @@
     "available_quantity": 3,
     "seller_name": "Mohammad Abdullah",
     "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Engineering Kit introduces kids to the world of engineering through building and designing various structures and mechanisms.",
-    "picture": "https://cdn.mos.cms.futurecdn.net/poybd6yydrzpr7xkm28phe.jpg"
+    "product_details": "Ignite your child's creativity and curiosity with BuildBots, an exciting engineering toy that introduces young minds to the world of robotics and engineering. With BuildBots, children can design, build, and program their own robots using a variety of components and electronic modules. From assembling the mechanical structure to coding the robot's behavior, BuildBots offers hands-on learning experiences that promote problem-solving, critical thinking, and STEM skills. With endless possibilities for customization and innovation, children can unleash their imagination and create robots that move, light up, and interact with their environment. BuildBots not only provides hours of fun and excitement but also fosters a passion for engineering and technology, preparing children for the future.",
+    "picture": "https://igamemom.com/wp-content/uploads/2017/01/Best-Engineering-Toys-for-Kids.jpg"
   },
   {
-    "name": "Science Kit",
+    "name": "NatureDetective",
     "price": 29.99,
     "rating": 4.7,
     "category": "Educational",
@@ -452,20 +380,8 @@
     "available_quantity": 8,
     "seller_name": "Mohammad Abdullah",
     "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Science Kit offers exciting experiments and activities that allow children to explore and understand different scientific concepts.",
-    "picture": "https://m.media-amazon.com/images/i/81zhm7rsbcl._ac_sl1500_.jpg"
-  },
-  {
-    "name": "Advanced Math Kit",
-    "price": 34.99,
-    "rating": 4.6,
-    "category": "Educational",
-    "sub_category": "Math",
-    "available_quantity": 6,
-    "seller_name": "Mohammad Abdullah",
-    "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Advanced Math Kit is designed for older children to dive deeper into complex mathematical concepts and problem-solving skills.",
-    "picture": "https://example.com/advanced_math_kit.jpg"
+    "product_details": " Ignite the curiosity of young minds with SciExplore, a fascinating science toy designed to inspire and educate children about the wonders of the natural world. With hands-on experiments, interactive models, and engaging activities, SciExplore makes learning science an exciting adventure. Children can delve into various scientific disciplines, from chemistry and physics to biology and astronomy, through captivating experiments and demonstrations. By exploring scientific concepts in a fun and interactive way, SciExplore encourages critical thinking, problem-solving skills, and a lifelong love for science.",
+    "picture": "https://cdn.shopify.com/s/files/1/0410/5994/2559/products/2_7.jpg?v=1680856953&width=360"
   },
   {
     "name": "Spelling and Grammar Kit",
@@ -476,79 +392,7 @@
     "available_quantity": 4,
     "seller_name": "Mohammad Abdullah",
     "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Spelling and Grammar Kit helps children improve their spelling and grammar skills through fun and engaging exercises.",
-    "picture": "https://example.com/spelling_grammar_kit.jpg"
-  },
-  {
-    "name": "Math Kit",
-    "price": 24.99,
-    "rating": 4.5,
-    "category": "Educational",
-    "sub_category": "Math",
-    "available_quantity": 10,
-    "seller_name": "Mohammad Abdullah",
-    "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Math Kit is designed to help children learn mathematical concepts through hands-on activities and games.",
-    "picture": "https://cdn.shopify.com/s/files/1/0729/3773/4417/articles/math-toys.jpg?v=1682516680&width=1500"
-  },
-  {
-    "name": "Language Kit",
-    "price": 19.99,
-    "rating": 4.2,
-    "category": "Educational",
-    "sub_category": "Language",
-    "available_quantity": 5,
-    "seller_name": "Mohammad Abdullah",
-    "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Language Kit includes interactive games and exercises to enhance children's language skills and vocabulary.",
-    "picture": "https://ae01.alicdn.com/kf/sf818b0efb5bf48b28e7c96c614e81e8cj/kids-english-educational-voice-reading-machine-book-smart-point-reading-pen-children-study-papers-learning-toys.jpg_q90.jpg_.webp"
-  },
-  {
-    "name": "Engineering Kit",
-    "price": 39.99,
-    "rating": 4.8,
-    "category": "Educational",
-    "sub_category": "Engineering",
-    "available_quantity": 3,
-    "seller_name": "Mohammad Abdullah",
-    "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Engineering Kit introduces kids to the world of engineering through building and designing various structures and mechanisms.",
-    "picture": "https://cdn.mos.cms.futurecdn.net/poybd6yydrzpr7xkm28phe.jpg"
-  },
-  {
-    "name": "Science Kit",
-    "price": 29.99,
-    "rating": 4.7,
-    "category": "Educational",
-    "sub_category": "Science",
-    "available_quantity": 8,
-    "seller_name": "Mohammad Abdullah",
-    "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Science Kit offers exciting experiments and activities that allow children to explore and understand different scientific concepts.",
-    "picture": "https://m.media-amazon.com/images/i/81zhm7rsbcl._ac_sl1500_.jpg"
-  },
-  {
-    "name": "Advanced Math Kit",
-    "price": 34.99,
-    "rating": 4.6,
-    "category": "Educational",
-    "sub_category": "Math",
-    "available_quantity": 6,
-    "seller_name": "Mohammad Abdullah",
-    "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Advanced Math Kit is designed for older children to dive deeper into complex mathematical concepts and problem-solving skills.",
-    "picture": "https://example.com/advanced_math_kit.jpg"
-  },
-  {
-    "name": "Spelling and Grammar Kit",
-    "price": 17.99,
-    "rating": 4.1,
-    "category": "Educational",
-    "sub_category": "Language",
-    "available_quantity": 4,
-    "seller_name": "Mohammad Abdullah",
-    "seller_email": "abdullah917828@gmail.com",
-    "product_details": "The Spelling and Grammar Kit helps children improve their spelling and grammar skills through fun and engaging exercises.",
-    "picture": "https://example.com/spelling_grammar_kit.jpg"
+    "product_details": "Explore the world of language with LanguageLand, an interactive and educational toy designed to help children develop their language skills. With engaging games, vocabulary-building exercises, and grammar practice, LanguageLand makes learning fun and exciting. Children can improve their listening and speaking skills, expand their vocabulary, and enhance their grammar understanding through interactive activities. With multilingual support and interactive storybooks, LanguageLand offers a versatile and educational experience for children of all backgrounds.",
+    "picture": "https://m.media-amazon.com/images/I/51tcX364IJS._AC_.jpg"
   }
 ]
