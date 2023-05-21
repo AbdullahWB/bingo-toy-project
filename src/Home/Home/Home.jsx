@@ -4,6 +4,7 @@ import Tabes from '../Tabs/Tabs';
 import Gallery from '../Gallery/Gallery';
 import ForCollection from '../ForCollection/ForCollection';
 import Offer from '../Offer/Offer';
+import Testimonial from '../Testimonial/Testimonial';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Gallery></Gallery>
             <Tabes></Tabes>
             <Offer></Offer>
+            <Testimonial></Testimonial>
         </div>
     );
 };
