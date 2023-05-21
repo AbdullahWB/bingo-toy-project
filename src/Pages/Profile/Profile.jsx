@@ -19,7 +19,7 @@ const Profile = () => {
     }
 
     return (
-        <div className='max-w-7xl mx-auto bg-[rgba(229,125,65,0.1)] flex flex-col p-20 mt-[50px] mb-[130px] rounded-xl'>
+        <div className='max-w-7xl lg:mx-auto bg-[rgba(229,125,65,0.1)] flex flex-col mx-5 lg:p-20 p-5 mt-[50px] mb-[130px] rounded-xl'>
             <div>
                 <h1 className='text-4xl text-black'>Your Profile. You Need to Change This </h1>
                 <div className='flex mt-10'>
@@ -32,10 +32,10 @@ const Profile = () => {
             </div>
             <div className='mt-10'>
                 <h1 className='text-2xl mb-5'>You want to change anything</h1>
-                <form onSubmit={handleUpdate} className='flex gap-5'>
+                <form onSubmit={handleUpdate} className='lg:flex grid grid-row-3 gap-5'>
                     <input type="text" name='name' placeholder="Your Name" className="input input-bordered w-full max-w-xs" />
                     <input type="text" name='photo' placeholder="Photo URL" className="input input-bordered w-full max-w-xs" />
-                    <input className='btn btn-primary text-white' type="submit" value="Update" />
+                    <input className='btn btn-primary w-[200px] text-white' type="submit" value="Update" />
                 </form>
             </div>
         </div>
