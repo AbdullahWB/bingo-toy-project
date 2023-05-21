@@ -5,7 +5,7 @@ const ForCollection = () => {
         <div className='max-w-7xl mx-auto mb-[130px] text-center' data-aos="slide-left" data-aos-easing="ease-in-out" data-aos-duration="2000">
             <h1 className='text-6xl text-primary font-light text-center'>Shope Product By Age</h1>
             <p className='text-xl text-center my-8'>Our Collection</p>
-            <div className='grid grid-cols-6 gap-14'>
+            <div className='grid lg:grid-cols-6 grid-cols-2 px-5 lg:px-0 gap-14'>
                 <div className='hover:scale-105 transition-all cursor-pointer'>
                     <img src="https://cdn.shopify.com/s/files/1/1152/4590/files/category_img1.png?v=1676031096" alt="" />
                     <h3 className='text-xl font-bold hover:text-primary'>For Baby</h3>

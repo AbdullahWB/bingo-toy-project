@@ -7,7 +7,7 @@ const Questions = () => {
         <div data-aos="flip-up" data-aos-easing="ease-in-out" data-aos-duration="2000" data-aos-anchor-placement="top-bottom" className='max-w-7xl mx-auto mb-[130px]'>
             <h1 className='text-6xl text-primary font-light text-center'>Frequently Asked Questions</h1>
             <p className='text-xl text-center my-8'>Find your answer from here</p>
-            <div className='grid grid-cols-2 gap-10'>
+            <div className='grid px-5 lg:px-0 lg:grid-cols-2 gap-10'>
                 <div className='grid grid-rows-2 gap-5'>
                     <div className='grid grid-cols-2 gap-5'>
                         <img className='w-full h-full object-cover rounded-lg' src="https://img.freepik.com/free-photo/close-up-making-robots_23-2148863354.jpg?w=1380&t=st=1684647348~exp=1684647948~hmac=58a73bd7b4f2eb920ea6d6c8faaf797d52ad679ab20552a1fd0c0fd53714e592" alt="" />

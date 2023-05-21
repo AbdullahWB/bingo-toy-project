@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Banner = () => {
     return (
-        <div className='grid grid-cols-4 gap-6 pb-[130px] pt-[50px] px-[20px]' data-aos="slide-up" data-aos-easing="ease-in-out" data-aos-duration="2000">
+        <div className='grid lg:grid-cols-4 grid-cols-1 gap-6 pb-[130px] pt-[50px] px-[20px]' data-aos="slide-up" data-aos-easing="ease-in-out" data-aos-duration="2000">
             <div className='grid grid-rows-2 gap-6'>
                 <div className='grid grid-cols-2 gap-3 bg-[#FAF8F4] p-10 pr-0 items-center'>
                     <div className="text">
@@ -28,7 +28,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-            <div className='col-span-2'>
+            <div className='lg:col-span-2'>
                 <div className='h-full bg-[#FFF2DF] p-6 flex flex-col justify-center items-center'>
                     <div className="text-center">
                         <p className='font-semibold'>CHECK OUT OUR LATEST ADDITION</p>

@@ -25,9 +25,9 @@ const Modal = ({ myToy, handleUpdateToyData }) => {
             <input type="checkbox" id="my-modal-5" className="modal-toggle" />
             <div className="modal">
                 <div className="modal-box w-11/12 max-w-5xl">
-                    <form className='bg-[rgba(229,125,65,0.1)] rounded-lg p-20' onSubmit={handleSubmit(onSubmit)}>
+                    <form className='bg-[rgba(229,125,65,0.1)] rounded-lg lg:p-20 p-3' onSubmit={handleSubmit(onSubmit)}>
                         {errors.exampleRequired && <span>This field is required</span>}
-                        <div className='grid grid-cols-2 gap-8'>
+                        <div className='grid lg:grid-cols-2 gap-8'>
                             <input
                                 className="input w-full border border-primary"
                                 {...register("name", { required: true })}
@@ -48,7 +48,7 @@ const Modal = ({ myToy, handleUpdateToyData }) => {
                                 defaultValue={picture}
                             />
                         </div>
-                        <div className='grid grid-cols-2 gap-8 my-16'>
+                        <div className='grid lg:grid-cols-2 gap-8 my-16'>
                             <input
                                 className="input w-full border border-primary"
                                 {...register("seller_name", { required: true })}
@@ -64,7 +64,7 @@ const Modal = ({ myToy, handleUpdateToyData }) => {
                                 type="email"
                             />
                         </div>
-                        <div className='grid grid-cols-3 gap-8'>
+                        <div className='grid lg:grid-cols-3 gap-8'>
                             <input
                                 className="input w-full border border-primary"
                                 {...register("category", { required: true })}
@@ -86,7 +86,7 @@ const Modal = ({ myToy, handleUpdateToyData }) => {
                             />
 
                         </div>
-                        <div className='grid grid-cols-2 gap-8 mt-16'>
+                        <div className='grid lg:grid-cols-2 gap-8 mt-16'>
                             <input
                                 className="input w-full border border-primary"
                                 {...register("rating")}

@@ -7,8 +7,8 @@ const Details = () => {
     const details = useLoaderData()
     const { _id, picture, product_details, seller_email, seller_name, available_quantity, sub_category, category, rating, price, name } = details || {};
     return (
-        <div className='mt-[50px] mb-[130px]'>
-            <div className='max-w-7xl mx-auto grid grid-cols-2 gap-9 shadow-xl p-8 rounded-xl'>
+        <div className='mt-[50px] mb-[130px] max-w-7xl mx-auto '>
+            <div className='grid mx-5 lg:grid-cols-2 gap-9 shadow-xl p-8 rounded-xl'>
                 <div>
                     <img className='rounded-xl' src={picture} alt="" />
                 </div>

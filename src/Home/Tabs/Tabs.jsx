@@ -17,12 +17,12 @@ const Tabs = () => {
     };
     return (
         <div className='max-w-7xl mx-auto' data-aos="slide-up" data-aos-easing="ease-in-out" data-aos-duration="2000">
-            <div className='grid grid-cols-4 w-full h-full gap-8'>
+            <div className='grid lg:grid-cols-4 w-full h-full gap-8 p-5 lg:px-0'>
                 <div onClick={() => handleClickTab("Science")} className='bg-[#6F5EFA] flex justify-between w-full h-full items-center rounded-lg p-5 cursor-pointer hover:scale-105 transition-all'>
                     <img className='w-auto h-[110px]' src="https://i.ibb.co/j6CKDLf/science-word-concept-23-2148533907-removebg-preview.png" alt="" />
                     <h1 className='text-4xl font-bold text-white'>Science</h1>
                 </div>
-                <div className='col-span-2 grid grid-rows-2 gap-5'>
+                <div className='lg:col-span-2 grid grid-rows-2 gap-5'>
                     <div onClick={() => handleClickTab("Language")} className='bg-[#504F81] flex w-full h-full justify-between items-center rounded-lg p-5 cursor-pointer hover:scale-105 transition-all'>
                         <img className='w-auto h-[100px]' src="https://i.ibb.co/SmrmcXD/hand-drawn-flat-world-children-s-day-illustration-23-2149113362-removebg-preview.png" alt="" />
                         <h1 className='text-4xl font-bold text-white'>Language</h1>
@@ -37,7 +37,7 @@ const Tabs = () => {
                     <h1 className='text-4xl font-bold text-white'>Math</h1>
                 </div>
             </div>
-            <div className='grid grid-cols-4 gap-7 my-[100px]'>
+            <div className='grid lg:grid-cols-4 gap-7 my-[100px] px-5 lg:px-0'>
                 {
                     tabs.map(tab => <TabCart
                         key={tab._id}

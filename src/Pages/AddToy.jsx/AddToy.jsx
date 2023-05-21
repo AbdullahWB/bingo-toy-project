@@ -21,9 +21,9 @@ const AddToy = () => {
     };
     return (
         <div className='my-[100px] max-w-7xl mx-auto'>
-            <form className='bg-[rgba(229,125,65,0.1)] rounded-lg p-20' onSubmit={handleSubmit(onSubmit)}>
+            <form className='bg-[rgba(229,125,65,0.1)] rounded-lg lg:p-20 p-3 lg:mx-0 mx-5' onSubmit={handleSubmit(onSubmit)}>
                 {errors.exampleRequired && <span>This field is required</span>}
-                <div className='grid grid-cols-2 gap-8'>
+                <div className='grid lg:grid-cols-2 gap-8'>
                     <input
                         className="input w-full border border-primary"
                         {...register("name", { required: true })}
@@ -37,7 +37,7 @@ const AddToy = () => {
                         type='url'
                     />
                 </div>
-                <div className='grid grid-cols-2 gap-8 my-16'>
+                <div className='grid lg:grid-cols-2 gap-8 my-16'>
                     <input
                         className="input w-full border border-primary"
                         {...register("seller_name", { required: true })}
@@ -52,7 +52,7 @@ const AddToy = () => {
                         type="email"
                     />
                 </div>
-                <div className='grid grid-cols-3 gap-8'>
+                <div className='grid lg:grid-cols-3 gap-8'>
                     <input
                         className="input w-full border border-primary"
                         {...register("category", { required: true })}
@@ -73,7 +73,7 @@ const AddToy = () => {
                     />
 
                 </div>
-                <div className='grid grid-cols-2 gap-8 mt-16'>
+                <div className='grid lg:grid-cols-2 gap-8 mt-16'>
                     <input
                         className="input w-full border border-primary"
                         {...register("rating")}
@@ -88,7 +88,7 @@ const AddToy = () => {
                         type='number'
                     />
                 </div>
-                <div className='grid grid-cols-1 gap-8 mt-16'>
+                <div className='grid lg:grid-cols-1 gap-8 mt-16'>
                     <input
                         className="input w-full border border-primary"
                         {...register("product_details")}

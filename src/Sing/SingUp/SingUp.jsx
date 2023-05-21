@@ -66,12 +66,12 @@ const SingUp = () => {
 
 
     return (
-        <div className='grid grid-cols-2 gap-8 max-w-7xl mx-auto mt-[50px] mb-[100px]'>
+        <div className='grid lg:grid-cols-2 gap-8 max-w-7xl mx-auto mt-[50px] mb-[100px]'>
             <div>
                 <Lottie className='h-full' animationData={login} loop={true} />
             </div>
             <div className='justify-center flex flex-col items-center'>
-                <div className='w-[80%] card bg-base-100 shadow-xl py-10'>
+                <div className='lg:w-[80%] w-[90%] card bg-base-100 shadow-xl py-10'>
                     <div className="flex flex-col justify-center items-center">
                         <div className='w-[150px]'>
                             <Lottie animationData={profile} loop={true} />

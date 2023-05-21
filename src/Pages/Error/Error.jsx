@@ -7,7 +7,7 @@ const Error = () => {
     const { error } = useRouteError()
     return (
         <div className='flex flex-col justify-center items-center mt-20'>
-            <div className='flex justify-center items-center w-[700px]'>
+            <div className='flex justify-center items-center w-[400px] lg:w-[700px]'>
                 <Lottie animationData={errorPage} loop={true} />
             </div>
             <div className='max-w-md text-center'>
